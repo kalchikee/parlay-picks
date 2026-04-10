@@ -1,0 +1,47 @@
+{
+  "date": "2026-04-09",
+  "legs": [
+    {
+      "ticker": "KXNHLGAME-26APR09MINDAL-MIN",
+      "title": "Minnesota at Dallas Winner?",
+      "series": "KXNHLGAME",
+      "sport": "NHL \ud83c\udfd2",
+      "event": "KXNHLGAME-26APR09MINDAL",
+      "mid": 0.7,
+      "bid": 0.7,
+      "ask": 0.71,
+      "volume": 380627.0,
+      "score": 0.9235166530659361,
+      "close": "2026-04-10T04:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWTAMATCH-26APR10ANDCIR-AND",
+      "title": "Will Mirra Andreeva win the Andreeva vs Cirstea : Quarterfinal match?",
+      "series": "KXWTAMATCH",
+      "sport": "WTA \ud83c\udfbe",
+      "event": "KXWTAMATCH-26APR10ANDCIR",
+      "mid": 0.7,
+      "bid": 0.7,
+      "ask": 0.71,
+      "volume": 30134.0,
+      "score": 0.8868018927978137,
+      "close": "2026-04-10T15:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBAGAME-26APR10TORNYK-NYK",
+      "title": "Toronto at New York Winner?",
+      "series": "KXNBAGAME",
+      "sport": "NBA \ud83c\udfc0",
+      "event": "KXNBAGAME-26APR10TORNYK",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 20802.0,
+      "score": 0.8314368364013356,
+      "close": "2026-04-11T02:30:00Z",
+      "result": ""
+    }
+  ]
+}
