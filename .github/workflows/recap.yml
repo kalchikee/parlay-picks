@@ -1,0 +1,58 @@
+name: Nightly Parlay Recap (11 PM ET)
+
+on:
+  schedule:
+    - cron: '0 3 * * *'    # 03:00 UTC = 11:00 PM EDT (Mar–Nov)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Restore data cache (tally + today's picks)
+        uses: actions/cache/restore@v4
+        with:
+          path: data/
+          key: parlay-data-${{ github.run_id }}
+          restore-keys: parlay-data-
+
+      - name: Pull latest data from repo (picks committed by morning job)
+        run: git pull --rebase
+
+      - name: Run nightly recap
+        env:
+          KALSHI_API_KEY_ID:  ${{ secrets.KALSHI_API_KEY_ID }}
+          KALSHI_PRIVATE_KEY: ${{ secrets.KALSHI_PRIVATE_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python parlay.py --recap
+
+      - name: Save updated tally cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: data/
+          key: parlay-data-${{ github.run_id }}
+
+      - name: Commit updated tally
+        run: |
+          git config user.name  "parlay-bot"
+          git config user.email "parlay-bot@github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "recap: $(date -u +%Y-%m-%d) tally updated"
+          git push
