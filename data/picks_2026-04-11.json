@@ -1,0 +1,47 @@
+{
+  "date": "2026-04-11",
+  "legs": [
+    {
+      "ticker": "KXUFCFIGHT-26APR11FREPIC-PIC",
+      "title": "Will Aaron Pico win the Pitbull vs Pico professional MMA fight scheduled for Apr 11, 2026?",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC \ud83e\udd4a",
+      "event": "KXUFCFIGHT-26APR11FREPIC",
+      "mid": 0.7,
+      "bid": 0.7,
+      "ask": 0.71,
+      "volume": 45290.0,
+      "score": 0.8927000773560985,
+      "close": "2026-04-12T05:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBAGAME-26APR12CHANYK-CHA",
+      "title": "Charlotte at New York Winner?",
+      "series": "KXNBAGAME",
+      "sport": "NBA \ud83c\udfc0",
+      "event": "KXNBAGAME-26APR12CHANYK",
+      "mid": 0.7,
+      "bid": 0.69,
+      "ask": 0.71,
+      "volume": 53107.0,
+      "score": 0.8825050589644922,
+      "close": "2026-04-13T01:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26APR11ARSBOU-ARS",
+      "title": "Arsenal vs Bournemouth Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL \u26bd",
+      "event": "KXEPLGAME-26APR11ARSBOU",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 537217.0,
+      "score": 0.8285049915758499,
+      "close": "2026-04-11T14:30:00Z",
+      "result": ""
+    }
+  ]
+}
