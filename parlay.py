@@ -121,6 +121,8 @@ def _score(m: dict) -> float:
 
 def scan_all_markets() -> list:
     """Return scored candidates from all series, one per event, sorted best first."""
+    today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-4))).strftime("%Y-%m-%d")
+
     candidates = []
     for series in SERIES:
         print(f"  Scanning {series}...")
@@ -130,6 +132,12 @@ def scan_all_markets() -> list:
             event = m.get("event_ticker", m.get("ticker", ""))
             if event in seen_events:
                 continue
+
+            # Only include games expiring today (ET)
+            exp = m.get("expected_expiration_time", "") or m.get("close_time", "")
+            if exp[:10] != today:
+                continue
+
             s = _score(m)
             if s > 0:
                 bid = float(m.get("yes_bid_dollars") or 0)
