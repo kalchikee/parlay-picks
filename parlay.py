@@ -248,23 +248,38 @@ def send_morning_discord(date: str, legs: list, tally: dict):
     _send_discord(payload)
 
 
-def send_recap_discord(date: str, legs: list, results: list, parlay_hit: bool, tally: dict):
+def send_recap_discord(
+    date: str,
+    legs: list,
+    results: list,
+    parlay_hit: bool,
+    tally: dict,
+    clv_values: list | None = None,
+    avg_clv: float | None = None,
+):
     wins   = tally["wins"]
     losses = tally["losses"]
     total  = wins + losses
     pct    = f"{round(wins/total*100)}%" if total > 0 else "—"
 
     leg_lines = []
-    for leg, res in zip(legs, results):
+    for i, (leg, res) in enumerate(zip(legs, results)):
         icon = "✅" if res == "win" else ("❌" if res == "loss" else "⏳")
+        clv = clv_values[i] if clv_values and i < len(clv_values) else None
+        clv_str = f"  |  CLV: **{clv:+.0%}**" if clv is not None else ""
         leg_lines.append({
             "name":   f"{icon} {leg['sport']}",
-            "value":  f"{leg['title']} → **{res.upper()}**",
+            "value":  f"{leg['title']} → **{res.upper()}**  (picked @ {int(leg['mid']*100)}¢{clv_str})",
             "inline": False,
         })
 
-    result_str  = "✅ PARLAY HIT" if parlay_hit else "❌ PARLAY MISS"
-    color       = 0x2ECC71 if parlay_hit else 0xE74C3C
+    result_str = "✅ PARLAY HIT" if parlay_hit else "❌ PARLAY MISS"
+    color      = 0x2ECC71 if parlay_hit else 0xE74C3C
+
+    clv_line = ""
+    if avg_clv is not None:
+        clv_emoji = "📈" if avg_clv > 0 else ("📉" if avg_clv < 0 else "➡️")
+        clv_line = f"\n{clv_emoji} Avg CLV: **{avg_clv:+.0%}** (closing vs morning price)"
 
     payload = {
         "embeds": [{
@@ -272,10 +287,11 @@ def send_recap_discord(date: str, legs: list, results: list, parlay_hit: bool, t
             "description": (
                 f"**{result_str}**\n"
                 f"📈 All-time record: **{wins}W – {losses}L** ({pct})"
+                f"{clv_line}"
             ),
             "color":       color,
             "fields":      leg_lines,
-            "footer":      {"text": "Kalchi Parlay Engine"},
+            "footer":      {"text": "Kalchi Parlay Engine  ·  CLV = closing line value (positive = market agreed with our pick)"},
         }]
     }
     _send_discord(payload)
@@ -321,6 +337,23 @@ def _check_result(ticker: str) -> str:
     return "pending"
 
 
+def _get_closing_price(ticker: str) -> float | None:
+    """Returns the closing YES price (0.0–1.0) for CLV computation.
+    For settled markets uses the result (1.0/0.0).
+    For still-open markets uses current mid as the best available closing estimate."""
+    data = _get(f"/markets/{ticker}")
+    m = data.get("market", data)
+    result = m.get("result", "")
+    status = m.get("status", "")
+    if status in ("finalized", "settled") or result:
+        return 1.0 if result == "yes" else 0.0
+    bid = float(m.get("yes_bid_dollars") or 0)
+    ask = float(m.get("yes_ask_dollars") or 0)
+    if bid > 0 and ask > 0:
+        return round((bid + ask) / 2, 3)
+    return None
+
+
 def run_recap():
     date = datetime.datetime.now(datetime.timezone.utc).astimezone(
         datetime.timezone(datetime.timedelta(hours=-4))
@@ -339,10 +372,20 @@ def run_recap():
 
     print("Checking results...")
     results = []
+    clv_values = []
     for leg in legs:
         res = _check_result(leg["ticker"])
         print(f"  {leg['title'][:50]} -> {res}")
         results.append(res)
+
+        # CLV = closing price − morning pick price
+        closing = _get_closing_price(leg["ticker"])
+        if closing is not None:
+            clv = round(closing - leg["mid"], 3)
+            clv_values.append(clv)
+            print(f"    CLV: morning={leg['mid']:.2f}  closing={closing:.2f}  clv={clv:+.3f}")
+        else:
+            clv_values.append(None)
 
     # Only count if all legs settled
     pending = results.count("pending")
@@ -351,6 +394,10 @@ def run_recap():
 
     wins_count  = results.count("win")
     parlay_hit  = (wins_count == len(legs)) and pending == 0
+
+    # Aggregate CLV stats (only for settled legs with valid CLV)
+    valid_clvs = [c for c in clv_values if c is not None]
+    avg_clv = round(sum(valid_clvs) / len(valid_clvs), 3) if valid_clvs else None
 
     # Update tally
     tally = load_tally()
@@ -362,11 +409,15 @@ def run_recap():
         tally["history"].append({
             "date":    date,
             "result":  "win" if parlay_hit else "loss",
-            "legs":    [{"title": l["title"], "result": r} for l, r in zip(legs, results)],
+            "legs":    [
+                {"title": l["title"], "result": r, "clv": c}
+                for l, r, c in zip(legs, results, clv_values)
+            ],
+            "avg_clv": avg_clv,
         })
         save_tally(tally)
 
-    send_recap_discord(date, legs, results, parlay_hit, tally)
+    send_recap_discord(date, legs, results, parlay_hit, tally, clv_values, avg_clv)
     print("[Recap] Done.")
 
 # ── Entry Point ───────────────────────────────────────────────────────────────
