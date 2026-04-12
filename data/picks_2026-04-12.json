@@ -1,0 +1,19 @@
+{
+  "date": "2026-04-12",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26APR121610COLSD-SD",
+      "title": "Colorado vs San Diego Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB \u26be",
+      "event": "KXMLBGAME-26APR121610COLSD",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.69,
+      "volume": 22962.0,
+      "score": 0.7703669904202717,
+      "close": "2026-04-12T23:10:00Z",
+      "result": ""
+    }
+  ]
+}
