@@ -1,0 +1,19 @@
+{
+  "date": "2026-04-16",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26APR161335LAANYY-NYY",
+      "title": "Los Angeles A vs New York Y Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB \u26be",
+      "event": "KXMLBGAME-26APR161335LAANYY",
+      "mid": 0.71,
+      "bid": 0.71,
+      "ask": 0.72,
+      "volume": 47290.0,
+      "score": 0.8433256438005141,
+      "close": "2026-04-16T20:35:00Z",
+      "result": ""
+    }
+  ]
+}
