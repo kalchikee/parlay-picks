@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-18",
+  "legs": [
+    {
+      "ticker": "KXNBAGAME-26APR18MINDEN-DEN",
+      "title": "Minnesota at Denver Winner?",
+      "series": "KXNBAGAME",
+      "sport": "NBA \ud83c\udfc0",
+      "event": "KXNBAGAME-26APR18MINDEN",
+      "mid": 0.7,
+      "bid": 0.7,
+      "ask": 0.71,
+      "volume": 277822.32,
+      "score": 0.9189589044546205,
+      "close": "2026-04-18T22:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26APR18LEEWOL-LEE",
+      "title": "Leeds United vs Wolverhampton Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL \u26bd",
+      "event": "KXEPLGAME-26APR18LEEWOL",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 51697.8,
+      "score": 0.544615735402816,
+      "close": "2026-04-18T17:00:00Z",
+      "result": ""
+    }
+  ]
+}
