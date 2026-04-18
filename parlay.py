@@ -35,29 +35,45 @@ BASE_URL        = "https://api.elections.kalshi.com/trade-api/v2"
 API_PREFIX      = "/trade-api/v2"
 DATA_DIR        = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
-# All sport series to scan on Kalshi
+# All sport series to scan on Kalshi (game + spread markets)
 SERIES = [
-    "KXMLBGAME",
-    "KXNBAGAME",
-    "KXNHLGAME",
+    "KXMLBGAME",    "KXMLBSPREAD",
+    "KXNBAGAME",    "KXNBASPREAD",
+    "KXNHLGAME",    "KXNHLSPREAD",
     "KXMLSGAME",
-    "KXNFLGAME",
+    "KXNFLGAME",    "KXNFLSPREAD",
     "KXUFCFIGHT",
-    "KXNCAAMGAME",
+    "KXNCAAMGAME",  "KXNCAAMBSPREAD",
     "KXNCAAFGAME",
     "KXEPLGAME",
+    "KXWNBAGAME",
 ]
 
 SPORT_LABELS = {
-    "KXMLBGAME": "MLB ⚾",
-    "KXNBAGAME": "NBA 🏀",
-    "KXNHLGAME": "NHL 🏒",
-    "KXMLSGAME": "MLS ⚽",
-    "KXNFLGAME": "NFL 🏈",
-    "KXUFCFIGHT": "UFC 🥊",
-    "KXNCAAMGAME": "NCAAM 🏀",
-    "KXNCAAFGAME": "NCAAF 🏈",
-    "KXEPLGAME": "EPL ⚽",
+    "KXMLBGAME": "MLB", "KXMLBSPREAD": "MLB Spread",
+    "KXNBAGAME": "NBA", "KXNBASPREAD": "NBA Spread",
+    "KXNHLGAME": "NHL", "KXNHLSPREAD": "NHL Spread",
+    "KXMLSGAME": "MLS",
+    "KXNFLGAME": "NFL", "KXNFLSPREAD": "NFL Spread",
+    "KXUFCFIGHT": "UFC",
+    "KXNCAAMGAME": "NCAAM", "KXNCAAMBSPREAD": "NCAAM Spread",
+    "KXNCAAFGAME": "NCAAF",
+    "KXEPLGAME": "EPL",
+    "KXWNBAGAME": "WNBA",
+}
+
+# Map series to base sport (for "different sports" dedup in parlay)
+SPORT_GROUP = {
+    "KXMLBGAME": "MLB", "KXMLBSPREAD": "MLB",
+    "KXNBAGAME": "NBA", "KXNBASPREAD": "NBA",
+    "KXNHLGAME": "NHL", "KXNHLSPREAD": "NHL",
+    "KXMLSGAME": "MLS",
+    "KXNFLGAME": "NFL", "KXNFLSPREAD": "NFL",
+    "KXUFCFIGHT": "UFC",
+    "KXNCAAMGAME": "NCAAM", "KXNCAAMBSPREAD": "NCAAM",
+    "KXNCAAFGAME": "NCAAF",
+    "KXEPLGAME": "EPL",
+    "KXWNBAGAME": "WNBA",
 }
 
 # ── Kalshi Auth ───────────────────────────────────────────────────────────────
@@ -104,15 +120,15 @@ def _score(m: dict) -> float:
     spread = ask - bid
     vol    = float(m.get("volume_fp") or 0)
 
-    # Only 62–80c YES markets
-    if mid < 0.62 or mid > 0.80:
+    # 55–85c YES markets (widened from 62–80c for playoff season coverage)
+    if mid < 0.55 or mid > 0.85:
         return 0.0
-    # Skip illiquid markets (spread > 8c)
-    if spread > 0.08:
+    # Skip illiquid markets (spread > 10c)
+    if spread > 0.10:
         return 0.0
 
-    # Sweet spot peaks at ~70c
-    sweet     = 1.0 - abs(mid - 0.70) / 0.10
+    # Sweet spot peaks at ~68c
+    sweet     = 1.0 - abs(mid - 0.68) / 0.15
     tight     = 1.0 - (spread / 0.08)
     vol_score = min(1.0, math.log10(max(1, vol)) / 6)
 
@@ -163,15 +179,32 @@ def scan_all_markets() -> list:
 
 
 def build_parlay(candidates: list, max_legs: int = 3) -> list:
-    """Pick top legs from different sports."""
+    """Pick top legs from different sports (game + spread count as same sport).
+    Allows multiple legs from the same sport if needed to reach 3,
+    but prefers diversity. Never puts two bets on the same game."""
     legs = []
-    used_series: set = set()
+    used_sports: set = set()
+    used_events: set = set()
+
+    # Pass 1: one leg per sport (prefer diversity)
     for c in candidates:
-        if c["series"] not in used_series:
+        sport = SPORT_GROUP.get(c["series"], c["series"])
+        if sport not in used_sports and c["event"] not in used_events:
             legs.append(c)
-            used_series.add(c["series"])
+            used_sports.add(sport)
+            used_events.add(c["event"])
         if len(legs) >= max_legs:
             break
+
+    # Pass 2: if < 3 legs, allow same sport but different game
+    if len(legs) < max_legs:
+        for c in candidates:
+            if c["event"] not in used_events:
+                legs.append(c)
+                used_events.add(c["event"])
+            if len(legs) >= max_legs:
+                break
+
     return legs
 
 # ── Data Persistence ──────────────────────────────────────────────────────────
@@ -309,9 +342,9 @@ def run_morning():
     print(f"  {len(candidates)} candidates found")
 
     legs = build_parlay(candidates, max_legs=3)
-    if not legs:
-        print("No suitable parlay legs found today.")
-        _send_discord({"content": f"⚠️ **{date}** — No suitable parlay legs found today. Markets may not have opened yet."})
+    if len(legs) < 3:
+        print(f"Only {len(legs)} legs found — need 3 for a parlay.")
+        _send_discord({"content": f"⚠️ **{date}** — Only found {len(legs)} qualifying legs (need 3 for a parlay). Markets may be too extreme or not yet open."})
         return
 
     # Save picks
