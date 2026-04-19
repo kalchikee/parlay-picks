@@ -135,6 +135,19 @@ def _score(m: dict) -> float:
     return sweet * 0.50 + tight * 0.30 + vol_score * 0.20
 
 
+def _game_key(event_ticker: str) -> str:
+    """Extract a game-unique key from Kalshi event_ticker that matches across
+    GAME and SPREAD markets. Kalshi tickers have format:
+      KXNBAGAME-26APR18MINDEN-DEN
+      KXNBASPREAD-26APR18MINDEN-DEN-5.5
+    The second segment (date+teams) is the same for both, so we use that
+    as the game identity to prevent 2 bets on the same matchup."""
+    parts = event_ticker.split("-")
+    if len(parts) >= 2:
+        return parts[1]  # date+teams segment, shared across GAME/SPREAD
+    return event_ticker
+
+
 def scan_all_markets() -> list:
     """Return scored candidates from all series, one per event, sorted best first."""
     today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-4))).strftime("%Y-%m-%d")
@@ -164,6 +177,8 @@ def scan_all_markets() -> list:
                     "series":  series,
                     "sport":   SPORT_LABELS.get(series, series),
                     "event":   event,
+                    # Game-level identity (matches across GAME/SPREAD markets)
+                    "game_key": _game_key(event),
                     "mid":     round((bid + ask) / 2, 2),
                     "bid":     bid,
                     "ask":     ask,
@@ -189,19 +204,19 @@ def build_parlay(candidates: list, max_legs: int = 3) -> list:
     # Pass 1: one leg per sport (prefer diversity)
     for c in candidates:
         sport = SPORT_GROUP.get(c["series"], c["series"])
-        if sport not in used_sports and c["event"] not in used_events:
+        if sport not in used_sports and c["game_key"] not in used_events:
             legs.append(c)
             used_sports.add(sport)
-            used_events.add(c["event"])
+            used_events.add(c["game_key"])
         if len(legs) >= max_legs:
             break
 
     # Pass 2: if < 3 legs, allow same sport but different game
     if len(legs) < max_legs:
         for c in candidates:
-            if c["event"] not in used_events:
+            if c["game_key"] not in used_events:
                 legs.append(c)
-                used_events.add(c["event"])
+                used_events.add(c["game_key"])
             if len(legs) >= max_legs:
                 break
 
