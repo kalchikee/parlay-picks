@@ -1,0 +1,47 @@
+{
+  "date": "2026-04-19",
+  "legs": [
+    {
+      "ticker": "KXNHLGAME-26APR19LACOL-COL",
+      "title": "Game 1: Los Angeles at Colorado Winner?",
+      "series": "KXNHLGAME",
+      "sport": "NHL",
+      "event": "KXNHLGAME-26APR19LACOL",
+      "mid": 0.69,
+      "bid": 0.69,
+      "ask": 0.7,
+      "volume": 180988.04,
+      "score": 0.8877549958964466,
+      "close": "2026-04-19T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26APR191510LADCOL-LAD",
+      "title": "Los Angeles D vs Colorado Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26APR191510LADCOL",
+      "mid": 0.71,
+      "bid": 0.71,
+      "ask": 0.72,
+      "volume": 89034.19,
+      "score": 0.8108185604001419,
+      "close": "2026-04-19T22:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26APR19NFOBUR-NFO",
+      "title": "Nottingham vs Burnley Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26APR19NFOBUR",
+      "mid": 0.66,
+      "bid": 0.65,
+      "ask": 0.67,
+      "volume": 28840.01,
+      "score": 0.8069998468878302,
+      "close": "2026-04-19T16:00:00Z",
+      "result": ""
+    }
+  ]
+}
