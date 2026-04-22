@@ -1,0 +1,50 @@
+{
+  "date": "2026-04-22",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26APR221610ATHSEA-SEA",
+      "title": "A's vs Seattle Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26APR221610ATHSEA",
+      "game_key": "26APR221610ATHSEA",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 9210.6,
+      "score": 0.7113095974025139,
+      "close": "2026-04-22T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26APR221507TORLAA-LAA",
+      "title": "Toronto vs Los Angeles A Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26APR221507TORLAA",
+      "game_key": "26APR221507TORLAA",
+      "mid": 0.58,
+      "bid": 0.58,
+      "ask": 0.59,
+      "volume": 38439.22,
+      "score": 0.5986591522160012,
+      "close": "2026-04-22T22:07:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26APR221310HOUCLE-CLE",
+      "title": "Houston vs Cleveland Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26APR221310HOUCLE",
+      "game_key": "26APR221310HOUCLE",
+      "mid": 0.56,
+      "bid": 0.56,
+      "ask": 0.57,
+      "volume": 120112.86,
+      "score": 0.5484863169350909,
+      "close": "2026-04-22T20:10:00Z",
+      "result": ""
+    }
+  ]
+}
