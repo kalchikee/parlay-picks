@@ -368,6 +368,14 @@ def run_morning():
         json.dump(picks_data, f, indent=2)
     print(f"  Saved {len(legs)} legs to picks_{date}.json")
 
+    # Emit predictions JSON for kalshi-safety to consume.
+    try:
+        from predictions_file import write_predictions_file
+        out_path = write_predictions_file(date, legs)
+        print(f"  [kalshi] Wrote predictions file: {out_path}")
+    except Exception as e:
+        print(f"  [kalshi] Failed to write predictions file: {e}")
+
     tally = load_tally()
     send_morning_discord(date, legs, tally)
     print("[Morning] Done.")

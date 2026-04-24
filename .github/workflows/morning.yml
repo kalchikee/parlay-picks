@@ -37,6 +37,7 @@ jobs:
           KALSHI_API_KEY_ID:  ${{ secrets.KALSHI_API_KEY_ID }}
           KALSHI_PRIVATE_KEY: ${{ secrets.KALSHI_PRIVATE_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          KALSHI_MIN_PROB: '0.58'
         run: python parlay.py --morning
 
       - name: Save data cache
@@ -50,6 +51,6 @@ jobs:
         run: |
           git config user.name  "parlay-bot"
           git config user.email "parlay-bot@github.com"
-          git add data/
-          git diff --staged --quiet || git commit -m "picks: $(date -u +%Y-%m-%d) morning parlay"
+          git add data/ predictions/ || true
+          git diff --staged --quiet || git commit -m "Emit predictions JSON for kalshi-safety"
           git push
