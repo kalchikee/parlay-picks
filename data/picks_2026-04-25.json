@@ -1,0 +1,50 @@
+{
+  "date": "2026-04-25",
+  "legs": [
+    {
+      "ticker": "KXEPLGAME-26APR25ARSNEW-ARS",
+      "title": "Arsenal vs Newcastle Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26APR25ARSNEW",
+      "game_key": "26APR25ARSNEW",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 136465.39,
+      "score": 0.9170007506898709,
+      "close": "2026-04-25T19:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26APR251610COLNYM-NYM",
+      "title": "Colorado vs New York M Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26APR251610COLNYM",
+      "game_key": "26APR251610COLNYM",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 7210.32,
+      "score": 0.7744318179832516,
+      "close": "2026-04-25T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBAGAME-26APR25OKCPHX-OKC",
+      "title": "Game 3: Oklahoma City at Phoenix Winner?",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26APR25OKCPHX",
+      "game_key": "26APR25OKCPHX",
+      "mid": 0.79,
+      "bid": 0.78,
+      "ask": 0.79,
+      "volume": 463016.66,
+      "score": 0.6013532205944716,
+      "close": "2026-04-25T22:30:00Z",
+      "result": ""
+    }
+  ]
+}
