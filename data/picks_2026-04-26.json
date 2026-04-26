@@ -1,0 +1,50 @@
+{
+  "date": "2026-04-26",
+  "legs": [
+    {
+      "ticker": "KXNBAGAME-26APR26SASPOR-SAS",
+      "title": "Game 4: San Antonio at Portland Winner?",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26APR26SASPOR",
+      "game_key": "26APR26SASPOR",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 1178038.68,
+      "score": 0.9124999999999999,
+      "close": "2026-04-26T22:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26APR261340COLNYM-NYM",
+      "title": "Colorado vs New York M Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26APR261340COLNYM",
+      "game_key": "26APR261340COLNYM",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 20532.2,
+      "score": 0.856247849532796,
+      "close": "2026-04-26T20:40:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNHLGAME-26APR26COLLA-COL",
+      "title": "Game 4: Colorado at Los Angeles Winner?",
+      "series": "KXNHLGAME",
+      "sport": "NHL",
+      "event": "KXNHLGAME-26APR26COLLA",
+      "game_key": "26APR26COLLA",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 133350.12,
+      "score": 0.716666447028063,
+      "close": "2026-04-26T23:30:00Z",
+      "result": ""
+    }
+  ]
+}
