@@ -1,0 +1,50 @@
+{
+  "date": "2026-04-30",
+  "legs": [
+    {
+      "ticker": "KXNBAGAME-26APR30DENMIN-DEN",
+      "title": "Game 6: Denver at Minnesota Winner?",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26APR30DENMIN",
+      "game_key": "26APR30DENMIN",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 124663.63,
+      "score": 0.9156913256227193,
+      "close": "2026-04-30T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26APR301235STLPIT-PIT",
+      "title": "St. Louis vs Pittsburgh Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26APR301235STLPIT",
+      "game_key": "26APR301235STLPIT",
+      "mid": 0.66,
+      "bid": 0.65,
+      "ask": 0.66,
+      "volume": 89296.03,
+      "score": 0.8441944050359564,
+      "close": "2026-04-30T19:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBAGAME-26APR30BOSPHI-BOS",
+      "title": "Game 6: Boston at Philadelphia Winner?",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26APR30BOSPHI",
+      "game_key": "26APR30BOSPHI",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 116244.69,
+      "score": 0.9146791041219248,
+      "close": "2026-04-30T20:00:00Z",
+      "result": ""
+    }
+  ]
+}
