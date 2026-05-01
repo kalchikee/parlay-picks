@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-01",
+  "legs": [
+    {
+      "ticker": "KXEPLGAME-26MAY01LEEBUR-LEE",
+      "title": "Leeds United vs Burnley Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26MAY01LEEBUR",
+      "game_key": "26MAY01LEEBUR",
+      "mid": 0.7,
+      "bid": 0.7,
+      "ask": 0.71,
+      "volume": 103358.93,
+      "score": 0.8463116001579554,
+      "close": "2026-05-01T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBAGAME-26MAY01CLETOR-CLE",
+      "title": "Game 6: Cleveland at Toronto Winner?",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26MAY01CLETOR",
+      "game_key": "26MAY01CLETOR",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 88174.47,
+      "score": 0.710678095262856,
+      "close": "2026-05-01T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY011420AZCHC-CHC",
+      "title": "Arizona vs Chicago C Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY011420AZCHC",
+      "game_key": "26MAY011420AZCHC",
+      "mid": 0.56,
+      "bid": 0.56,
+      "ask": 0.57,
+      "volume": 255748.5,
+      "score": 0.5594271031731672,
+      "close": "2026-05-01T21:20:00Z",
+      "result": ""
+    }
+  ]
+}
