@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-02",
+  "legs": [
+    {
+      "ticker": "KXEPLGAME-26MAY02ARSFUL-ARS",
+      "title": "Arsenal vs Fulham Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26MAY02ARSFUL",
+      "game_key": "26MAY02ARSFUL",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 216589.63,
+      "score": 0.9236879219797282,
+      "close": "2026-05-02T19:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXUFCFIGHT-26MAY02TUISUT-TUI",
+      "title": "Will Tai Tuivasa win the Tuivasa vs Sutherland professional MMA fight scheduled for May 2, 2026?",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26MAY02TUISUT",
+      "game_key": "26MAY02TUISUT",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.69,
+      "volume": 118335.23,
+      "score": 0.8941038019741667,
+      "close": "2026-05-02T17:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLSGAME-26MAY02RSLPOR-RSL",
+      "title": "Salt Lake vs Portland Winner?",
+      "series": "KXMLSGAME",
+      "sport": "MLS",
+      "event": "KXMLSGAME-26MAY02RSLPOR",
+      "game_key": "26MAY02RSLPOR",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 973.87,
+      "score": 0.8454500329209117,
+      "close": "2026-05-02T23:30:00Z",
+      "result": ""
+    }
+  ]
+}
