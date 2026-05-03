@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-03",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26MAY031335BALNYY-NYY",
+      "title": "Baltimore vs New York Y Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY031335BALNYY",
+      "game_key": "26MAY031335BALNYY",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 202763.38,
+      "score": 0.9227329840720114,
+      "close": "2026-05-03T20:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26MAY03WSHATL-ATL",
+      "title": "Washington vs Atlanta winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26MAY03WSHATL",
+      "game_key": "26MAY03WSHATL",
+      "mid": 0.72,
+      "bid": 0.72,
+      "ask": 0.73,
+      "volume": 878.58,
+      "score": 0.7106260437586611,
+      "close": "2026-05-03T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBASPREAD-26MAY03ORLDET-DET4",
+      "title": "Detroit wins by over 4.5 points?",
+      "series": "KXNBASPREAD",
+      "sport": "NBA Spread",
+      "event": "KXNBASPREAD-26MAY03ORLDET",
+      "game_key": "26MAY03ORLDET",
+      "mid": 0.63,
+      "bid": 0.62,
+      "ask": 0.64,
+      "volume": 19213.05,
+      "score": 0.7011198770987676,
+      "close": "2026-05-03T22:30:00Z",
+      "result": ""
+    }
+  ]
+}
