@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-04",
+  "legs": [
+    {
+      "ticker": "KXEPLGAME-26MAY04EVEMCI-MCI",
+      "title": "Everton vs Manchester City Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26MAY04EVEMCI",
+      "game_key": "26MAY04EVEMCI",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 571298.65,
+      "score": 0.9043954399269238,
+      "close": "2026-05-04T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBASPREAD-26MAY04MINSAS-SAS9",
+      "title": "San Antonio wins by over 9.5 points?",
+      "series": "KXNBASPREAD",
+      "sport": "NBA Spread",
+      "event": "KXNBASPREAD-26MAY04MINSAS",
+      "game_key": "26MAY04MINSAS",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 23843.85,
+      "score": 0.6917458793683227,
+      "close": "2026-05-04T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26MAY04CFCNFO-CFC",
+      "title": "Chelsea vs Nottingham Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26MAY04CFCNFO",
+      "game_key": "26MAY04CFCNFO",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 185612.39,
+      "score": 0.5881202320959927,
+      "close": "2026-05-04T17:00:00Z",
+      "result": ""
+    }
+  ]
+}
