@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-06",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26MAY061410LADHOU-LAD",
+      "title": "Los Angeles D vs Houston Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY061410LADHOU",
+      "game_key": "26MAY061410LADHOU",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 91497.13,
+      "score": 0.8778802490573292,
+      "close": "2026-05-06T21:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBAGAME-26MAY06MINSAS-SAS",
+      "title": "Game 2: Minnesota at San Antonio Winner?",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26MAY06MINSAS",
+      "game_key": "26MAY06MINSAS",
+      "mid": 0.78,
+      "bid": 0.77,
+      "ask": 0.78,
+      "volume": 239760.83,
+      "score": 0.6251592744457837,
+      "close": "2026-05-06T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY061510NYMCOL-NYM",
+      "title": "New York M vs Colorado Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY061510NYMCOL",
+      "game_key": "26MAY061510NYMCOL",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 12808.83,
+      "score": 0.6494169820564125,
+      "close": "2026-05-06T22:10:00Z",
+      "result": ""
+    }
+  ]
+}
