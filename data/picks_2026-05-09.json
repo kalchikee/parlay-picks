@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-09",
+  "legs": [
+    {
+      "ticker": "KXWNBAGAME-26MAY09DALIND-IND",
+      "title": "Dallas vs Indiana winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26MAY09DALIND",
+      "game_key": "26MAY09DALIND",
+      "mid": 0.69,
+      "bid": 0.69,
+      "ask": 0.7,
+      "volume": 19295.02,
+      "score": 0.8553481744356637,
+      "close": "2026-05-09T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26MAY09MCIBRE-MCI",
+      "title": "Manchester City vs Brentford Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26MAY09MCIBRE",
+      "game_key": "26MAY09MCIBRE",
+      "mid": 0.72,
+      "bid": 0.72,
+      "ask": 0.73,
+      "volume": 96391.63,
+      "score": 0.7786346441443994,
+      "close": "2026-05-09T19:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLSGAME-26MAY09CHINYRB-CHI",
+      "title": "Chicago Fire vs New York RB Winner?",
+      "series": "KXMLSGAME",
+      "sport": "MLS",
+      "event": "KXMLSGAME-26MAY09CHINYRB",
+      "game_key": "26MAY09CHINYRB",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 2749.95,
+      "score": 0.7271441599165055,
+      "close": "2026-05-09T21:30:00Z",
+      "result": ""
+    }
+  ]
+}
