@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-10",
+  "legs": [
+    {
+      "ticker": "KXEPLGAME-26MAY10WHUARS-ARS",
+      "title": "West Ham vs Arsenal Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26MAY10WHUARS",
+      "game_key": "26MAY10WHUARS",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 703870.03,
+      "score": 0.8407497491274255,
+      "close": "2026-05-10T18:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26MAY10NYWSH-NY",
+      "title": "New York vs Washington winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26MAY10NYWSH",
+      "game_key": "26MAY10NYWSH",
+      "mid": 0.7,
+      "bid": 0.7,
+      "ask": 0.71,
+      "volume": 5718.0,
+      "score": 0.8044081383673993,
+      "close": "2026-05-10T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBAGAME-26MAY10SASMIN-SAS",
+      "title": "Game 4: San Antonio at Minnesota Winner?",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26MAY10SASMIN",
+      "game_key": "26MAY10SASMIN",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 318491.25,
+      "score": 0.7959365835113462,
+      "close": "2026-05-10T20:00:00Z",
+      "result": ""
+    }
+  ]
+}
