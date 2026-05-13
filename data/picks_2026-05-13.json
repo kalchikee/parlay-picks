@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-13",
+  "legs": [
+    {
+      "ticker": "KXNBAGAME-26MAY13CLEDET-DET",
+      "title": "Game 5: Cleveland at Detroit Winner?",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26MAY13CLEDET",
+      "game_key": "26MAY13CLEDET",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 565441.1,
+      "score": 0.7375795790898989,
+      "close": "2026-05-13T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY131310LAACLE-CLE",
+      "title": "Los Angeles A vs Cleveland Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY131310LAACLE",
+      "game_key": "26MAY131310LAACLE",
+      "mid": 0.58,
+      "bid": 0.58,
+      "ask": 0.59,
+      "volume": 100295.24,
+      "score": 0.6125426773981915,
+      "close": "2026-05-13T20:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26MAY13MCICRY-MCI",
+      "title": "Manchester City vs Crystal Palace Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26MAY13MCICRY",
+      "game_key": "26MAY13MCICRY",
+      "mid": 0.81,
+      "bid": 0.81,
+      "ask": 0.82,
+      "volume": 77189.59,
+      "score": 0.47541862447129535,
+      "close": "2026-05-13T22:00:00Z",
+      "result": ""
+    }
+  ]
+}
