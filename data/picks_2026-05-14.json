@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-14",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26MAY141235COLPIT-PIT",
+      "title": "Colorado vs Pittsburgh Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY141235COLPIT",
+      "game_key": "26MAY141235COLPIT",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 105125.13,
+      "score": 0.7132235515288068,
+      "close": "2026-05-14T19:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY141310DETNYM-NYM",
+      "title": "Detroit vs New York M Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY141310DETNYM",
+      "game_key": "26MAY141310DETNYM",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 29733.72,
+      "score": 0.6616083082465167,
+      "close": "2026-05-14T20:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY141340SDMIL-MIL",
+      "title": "San Diego vs Milwaukee Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY141340SDMIL",
+      "game_key": "26MAY141340SDMIL",
+      "mid": 0.58,
+      "bid": 0.58,
+      "ask": 0.59,
+      "volume": 68364.79,
+      "score": 0.6069944161363652,
+      "close": "2026-05-14T20:40:00Z",
+      "result": ""
+    }
+  ]
+}
