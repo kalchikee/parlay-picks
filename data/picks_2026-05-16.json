@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-16",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26MAY161605PHIPIT-PHI",
+      "title": "Philadelphia vs Pittsburgh Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY161605PHIPIT",
+      "game_key": "26MAY161605PHIPIT",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 23921.88,
+      "score": 0.691793176916262,
+      "close": "2026-05-16T23:05:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY161610MIATB-TB",
+      "title": "Miami vs Tampa Bay Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY161610MIATB",
+      "game_key": "26MAY161610MIATB",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 134581.09,
+      "score": 0.5834661347140471,
+      "close": "2026-05-16T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY161510AZCOL-AZ",
+      "title": "Arizona vs Colorado Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY161510AZCOL",
+      "game_key": "26MAY161510AZCOL",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 51497.42,
+      "score": 0.5695595157202525,
+      "close": "2026-05-16T22:10:00Z",
+      "result": ""
+    }
+  ]
+}
