@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-17",
+  "legs": [
+    {
+      "ticker": "KXEPLGAME-26MAY17MUNNFO-MUN",
+      "title": "Manchester United vs Nottingham Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26MAY17MUNNFO",
+      "game_key": "26MAY17MUNNFO",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 554216.53,
+      "score": 0.8039559824952613,
+      "close": "2026-05-17T14:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY171215MIATB-TB",
+      "title": "Miami vs Tampa Bay Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY171215MIATB",
+      "game_key": "26MAY171215MIATB",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 228315.37,
+      "score": 0.6577845049605372,
+      "close": "2026-05-17T19:15:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBASPREAD-26MAY17CLEDET-DET3",
+      "title": "Detroit wins by over 3.5 points?",
+      "series": "KXNBASPREAD",
+      "sport": "NBA Spread",
+      "event": "KXNBASPREAD-26MAY17CLEDET",
+      "game_key": "26MAY17CLEDET",
+      "mid": 0.55,
+      "bid": 0.54,
+      "ask": 0.56,
+      "volume": 27220.56,
+      "score": 0.4394965685187563,
+      "close": "2026-05-17T20:00:00Z",
+      "result": ""
+    }
+  ]
+}
