@@ -263,6 +263,26 @@ def _combined_odds(legs: list) -> float:
     return round(p, 3)
 
 
+def _per_leg_accuracy(tally: dict) -> tuple[int, int]:
+    """Walk the saved history and count individual legs that hit.
+
+    Each entry in tally["history"] has a `legs` list with `{title, result, clv}`
+    items written by `run_recap`. Pending legs (result not in win/loss) are
+    excluded — only fully-graded picks count.
+    """
+    correct = 0
+    total = 0
+    for entry in tally.get("history", []):
+        for leg in entry.get("legs", []) or []:
+            res = leg.get("result")
+            if res not in ("win", "loss"):
+                continue
+            total += 1
+            if res == "win":
+                correct += 1
+    return correct, total
+
+
 def send_morning_discord(date: str, legs: list, tally: dict):
     combined = _combined_odds(legs)
     payout   = round(1 / combined, 2) if combined > 0 else 0
@@ -271,10 +291,23 @@ def send_morning_discord(date: str, legs: list, tally: dict):
     total    = wins + losses
     pct      = f"{round(wins/total*100)}%" if total > 0 else "—"
 
-    leg_lines = []
+    # Per-leg season accuracy across all saved recap entries. Stays hidden
+    # until at least one leg has been graded (same offseason-safe pattern
+    # as the MLB/NBA/NHL morning briefings).
+    leg_correct, leg_total = _per_leg_accuracy(tally)
+
+    fields: list[dict] = []
+    if leg_total > 0:
+        season_pct = leg_correct / leg_total * 100
+        fields.append({
+            "name":   "📊 Season Accuracy",
+            "value":  f"**{season_pct:.1f}%** · {leg_correct}/{leg_total} predictions correct this season",
+            "inline": False,
+        })
+
     for i, leg in enumerate(legs, 1):
         mid_pct = int(leg["mid"] * 100)
-        leg_lines.append({
+        fields.append({
             "name":   f"Leg {i} — {leg['sport']}",
             "value":  f"**{leg['title']}**\nKalshi YES: **{mid_pct}¢**  |  Vol: {int(leg['volume']):,}",
             "inline": False,
@@ -289,7 +322,7 @@ def send_morning_discord(date: str, legs: list, tally: dict):
                 f"📊 All-time record: **{wins}W – {losses}L** ({pct})"
             ),
             "color":       0x2ECC71,
-            "fields":      leg_lines,
+            "fields":      fields,
             "footer":      {"text": "Kalchi Parlay Engine • picks close at game time"},
         }]
     }
