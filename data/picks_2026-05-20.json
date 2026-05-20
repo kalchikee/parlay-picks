@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-20",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26MAY201340HOUMIN-MIN",
+      "title": "Houston vs Minnesota Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY201340HOUMIN",
+      "game_key": "26MAY201340HOUMIN",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 38886.03,
+      "score": 0.6321597868962906,
+      "close": "2026-05-20T20:40:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY201305CINPHI-PHI",
+      "title": "Cincinnati vs Philadelphia Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY201305CINPHI",
+      "game_key": "26MAY201305CINPHI",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 36450.06,
+      "score": 0.5645566082513811,
+      "close": "2026-05-20T20:05:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY201610CWSSEA-SEA",
+      "title": "Chicago WS vs Seattle Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY201610CWSSEA",
+      "game_key": "26MAY201610CWSSEA",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 13191.88,
+      "score": 0.5498435564030857,
+      "close": "2026-05-20T23:10:00Z",
+      "result": ""
+    }
+  ]
+}
