@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-23",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26MAY231605CLEPHI-PHI",
+      "title": "Cleveland vs Philadelphia Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY231605CLEPHI",
+      "game_key": "26MAY231605CLEPHI",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 44725.45,
+      "score": 0.8008518239621882,
+      "close": "2026-05-23T23:05:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26MAY23MINCHI-MIN",
+      "title": "Minnesota vs Chicago winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26MAY23MINCHI",
+      "game_key": "26MAY23MINCHI",
+      "mid": 0.56,
+      "bid": 0.56,
+      "ask": 0.57,
+      "volume": 21414.33,
+      "score": 0.5235234830324595,
+      "close": "2026-05-23T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLSGAME-26MAY23STLATX-STL",
+      "title": "Saint Louis vs Austin Winner?",
+      "series": "KXMLSGAME",
+      "sport": "MLS",
+      "event": "KXMLSGAME-26MAY23STLATX",
+      "game_key": "26MAY23STLATX",
+      "mid": 0.56,
+      "bid": 0.56,
+      "ask": 0.57,
+      "volume": 4611.9,
+      "score": 0.5012959960633759,
+      "close": "2026-05-23T21:45:00Z",
+      "result": ""
+    }
+  ]
+}
