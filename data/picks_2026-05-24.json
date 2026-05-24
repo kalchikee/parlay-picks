@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-24",
+  "legs": [
+    {
+      "ticker": "KXWNBAGAME-26MAY24PHXATL-ATL",
+      "title": "Phoenix vs Atlanta winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26MAY24PHXATL",
+      "game_key": "26MAY24PHXATL",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 11699.59,
+      "score": 0.8481056880871013,
+      "close": "2026-05-24T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY241610COLAZ-AZ",
+      "title": "Colorado vs Arizona Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY241610COLAZ",
+      "game_key": "26MAY241610COLAZ",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 9327.69,
+      "score": 0.7448258034715549,
+      "close": "2026-05-24T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26MAY24MCIAVL-MCI",
+      "title": "Manchester City vs Aston Villa Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26MAY24MCIAVL",
+      "game_key": "26MAY24MCIAVL",
+      "mid": 0.76,
+      "bid": 0.75,
+      "ask": 0.76,
+      "volume": 107985.91,
+      "score": 0.6802789030815249,
+      "close": "2026-05-24T18:00:00Z",
+      "result": ""
+    }
+  ]
+}
