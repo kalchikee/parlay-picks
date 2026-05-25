@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-25",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26MAY251410STLMIL-MIL",
+      "title": "St. Louis vs Milwaukee Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY251410STLMIL",
+      "game_key": "26MAY251410STLMIL",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 106083.51,
+      "score": 0.9133549293620322,
+      "close": "2026-05-25T21:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY251610CINNYM-NYM",
+      "title": "Cincinnati vs New York M Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY251610CINNYM",
+      "game_key": "26MAY251610CINNYM",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 19808.85,
+      "score": 0.6223953087788442,
+      "close": "2026-05-25T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY251540NYYKC-NYY",
+      "title": "New York Y vs Kansas City Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY251540NYYKC",
+      "game_key": "26MAY251540NYYKC",
+      "mid": 0.58,
+      "bid": 0.58,
+      "ask": 0.59,
+      "volume": 176859.82,
+      "score": 0.6207543059557955,
+      "close": "2026-05-25T22:40:00Z",
+      "result": ""
+    }
+  ]
+}
