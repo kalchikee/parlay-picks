@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-27",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26MAY271310WSHCLE-CLE",
+      "title": "Washington vs Cleveland Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY271310WSHCLE",
+      "game_key": "26MAY271310WSHCLE",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 57960.08,
+      "score": 0.7712709658746333,
+      "close": "2026-05-27T20:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY271307MIATOR-TOR",
+      "title": "Miami vs Toronto Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY271307MIATOR",
+      "game_key": "26MAY271307MIATOR",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 128635.91,
+      "score": 0.6494787407719705,
+      "close": "2026-05-27T20:07:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY271610PHISD-PHI",
+      "title": "Philadelphia vs San Diego Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY271610PHISD",
+      "game_key": "26MAY271610PHISD",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 43040.61,
+      "score": 0.6336292805936887,
+      "close": "2026-05-27T23:10:00Z",
+      "result": ""
+    }
+  ]
+}
