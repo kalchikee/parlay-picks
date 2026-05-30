@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-30",
+  "legs": [
+    {
+      "ticker": "KXWNBAGAME-26MAY30SEATOR-TOR",
+      "title": "Seattle vs Toronto winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26MAY30SEATOR",
+      "game_key": "26MAY30SEATOR",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 11874.59,
+      "score": 0.8816539541149873,
+      "close": "2026-05-30T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26MAY301610LAATB-TB",
+      "title": "Los Angeles A vs Tampa Bay Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26MAY301610LAATB",
+      "game_key": "26MAY301610LAATB",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 134272.75,
+      "score": 0.650099596122109,
+      "close": "2026-05-30T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXUFCFIGHT-26MAY30MATCAR-MAT",
+      "title": "Will Jake Matthews win the Matthews vs Carlston professional MMA fight scheduled for May 30, 2026?",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26MAY30MATCAR",
+      "game_key": "26MAY30MATCAR",
+      "mid": 0.82,
+      "bid": 0.82,
+      "ask": 0.83,
+      "volume": 45348.66,
+      "score": 0.4343854819563472,
+      "close": "2026-05-30T16:20:00Z",
+      "result": ""
+    }
+  ]
+}
