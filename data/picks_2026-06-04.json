@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-04",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUN041305SDPHI-PHI",
+      "title": "San Diego vs Philadelphia Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN041305SDPHI",
+      "game_key": "26JUN041305SDPHI",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 92552.65,
+      "score": 0.811379628604639,
+      "close": "2026-06-04T20:05:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUN041410SFMIL-MIL",
+      "title": "San Francisco vs Milwaukee Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN041410SFMIL",
+      "game_key": "26JUN041410SFMIL",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 79844.04,
+      "score": 0.7759080834515436,
+      "close": "2026-06-04T21:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUN041335CLENYY-NYY",
+      "title": "Cleveland vs New York Y Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN041335CLENYY",
+      "game_key": "26JUN041335CLENYY",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 52418.02,
+      "score": 0.7031493537399286,
+      "close": "2026-06-04T20:35:00Z",
+      "result": ""
+    }
+  ]
+}
