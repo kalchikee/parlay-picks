@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-06",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUN061610WSHAZ-AZ",
+      "title": "Washington vs Arizona Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN061610WSHAZ",
+      "game_key": "26JUN061610WSHAZ",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 10460.44,
+      "score": 0.6131516650916186,
+      "close": "2026-06-06T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26JUN06GSLV-LV",
+      "title": "Golden State vs Las Vegas winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUN06GSLV",
+      "game_key": "26JUN06GSLV",
+      "mid": 0.58,
+      "bid": 0.57,
+      "ask": 0.59,
+      "volume": 28420.44,
+      "score": 0.5401210265770133,
+      "close": "2026-06-06T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUN061410KCMIN-MIN",
+      "title": "Kansas City vs Minnesota Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN061410KCMIN",
+      "game_key": "26JUN061410KCMIN",
+      "mid": 0.58,
+      "bid": 0.58,
+      "ask": 0.59,
+      "volume": 70554.3,
+      "score": 0.6074507829131294,
+      "close": "2026-06-06T21:10:00Z",
+      "result": ""
+    }
+  ]
+}
