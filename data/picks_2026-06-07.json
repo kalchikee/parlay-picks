@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-07",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUN071610LAALAD-LAD",
+      "title": "Los Angeles A vs Los Angeles D Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN071610LAALAD",
+      "game_key": "26JUN071610LAALAD",
+      "mid": 0.66,
+      "bid": 0.65,
+      "ask": 0.66,
+      "volume": 197683.16,
+      "score": 0.8556989891574335,
+      "close": "2026-06-07T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26JUN07CHITOR-TOR",
+      "title": "Chicago vs Toronto winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUN07CHITOR",
+      "game_key": "26JUN07CHITOR",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 37606.53,
+      "score": 0.6316754420798011,
+      "close": "2026-06-07T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUN071510MILCOL-MIL",
+      "title": "Milwaukee vs Colorado Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN071510MILCOL",
+      "game_key": "26JUN071510MILCOL",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 82894.67,
+      "score": 0.7431175535659876,
+      "close": "2026-06-07T22:10:00Z",
+      "result": ""
+    }
+  ]
+}
