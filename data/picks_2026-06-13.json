@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-13",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUN131610LADCWS-LAD",
+      "title": "Los Angeles D vs Chicago WS Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN131610LADCWS",
+      "game_key": "26JUN131610LADCWS",
+      "mid": 0.66,
+      "bid": 0.65,
+      "ask": 0.66,
+      "volume": 151241.66,
+      "score": 0.8518223811817054,
+      "close": "2026-06-13T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUN131610DETCLE-DET",
+      "title": "Detroit vs Cleveland Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN131610DETCLE",
+      "game_key": "26JUN131610DETCLE",
+      "mid": 0.58,
+      "bid": 0.58,
+      "ask": 0.59,
+      "volume": 29195.41,
+      "score": 0.594677152618643,
+      "close": "2026-06-13T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUN131610AZCIN-AZ",
+      "title": "Arizona vs Cincinnati Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN131610AZCIN",
+      "game_key": "26JUN131610AZCIN",
+      "mid": 0.56,
+      "bid": 0.56,
+      "ask": 0.57,
+      "volume": 18434.17,
+      "score": 0.521354119607935,
+      "close": "2026-06-13T23:10:00Z",
+      "result": ""
+    }
+  ]
+}
