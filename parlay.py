@@ -283,6 +283,58 @@ def _per_leg_accuracy(tally: dict) -> tuple[int, int]:
     return correct, total
 
 
+# Half-open [lo, hi). Bins the user's per-leg picks by the score we
+# entered the bet at — Kalshi mid is the market's pick-side probability
+# (already ≥ 0.5 for the picked side since we only take the favored
+# half). Only buckets with ≥ 1 graded leg are returned.
+_CONFIDENCE_BUCKETS = [
+    (0.50, 0.60, "50-60%"),
+    (0.60, 0.70, "60-70%"),
+    (0.70, 0.80, "70-80%"),
+    (0.80, 0.90, "80-90%"),
+    (0.90, 1.01, "90%+"),
+]
+
+
+def _per_leg_confidence_buckets(tally: dict) -> list[dict]:
+    """For each bucket: total / correct / accuracy across graded legs.
+
+    Uses `score` when present (model confidence) otherwise falls back
+    to `mid` (Kalshi market mid price) — both are pick-side
+    probabilities, so no max() needed."""
+    out = []
+    for lo, hi, label in _CONFIDENCE_BUCKETS:
+        total = 0
+        correct = 0
+        for entry in tally.get("history", []):
+            for leg in entry.get("legs", []) or []:
+                res = leg.get("result")
+                if res not in ("win", "loss"):
+                    continue
+                p = leg.get("score")
+                if p is None:
+                    p = leg.get("mid")
+                if p is None:
+                    continue
+                try:
+                    p = float(p)
+                except (TypeError, ValueError):
+                    continue
+                if not (lo <= p < hi):
+                    continue
+                total += 1
+                if res == "win":
+                    correct += 1
+        if total > 0:
+            out.append({
+                "label":    label,
+                "total":    total,
+                "correct":  correct,
+                "accuracy": correct / total,
+            })
+    return out
+
+
 def send_morning_discord(date: str, legs: list, tally: dict):
     combined = _combined_odds(legs)
     payout   = round(1 / combined, 2) if combined > 0 else 0
@@ -304,6 +356,19 @@ def send_morning_discord(date: str, legs: list, tally: dict):
             "value":  f"**{season_pct:.1f}%** · {leg_correct}/{leg_total} predictions correct this season",
             "inline": False,
         })
+        # Per-confidence-bucket calibration so the user can see how
+        # accurate the parlay legs were at each declared confidence tier.
+        buckets = _per_leg_confidence_buckets(tally)
+        if buckets:
+            lines = [
+                f"**{b['label']}** · {b['correct']}/{b['total']} ({b['accuracy']*100:.1f}%)"
+                for b in buckets
+            ]
+            fields.append({
+                "name":   "🎯 Calibration by confidence",
+                "value":  "\n".join(lines),
+                "inline": False,
+            })
 
     for i, leg in enumerate(legs, 1):
         mid_pct = int(leg["mid"] * 100)
