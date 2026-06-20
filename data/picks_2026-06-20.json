@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-20",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUN201335CINNYY-NYY",
+      "title": "Cincinnati vs New York Y Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN201335CINNYY",
+      "game_key": "26JUN201335CINNYY",
+      "mid": 0.66,
+      "bid": 0.65,
+      "ask": 0.66,
+      "volume": 210163.55,
+      "score": 0.8565852465257162,
+      "close": "2026-06-20T20:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26JUN20SEAPHX-PHX",
+      "title": "Seattle vs Phoenix winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUN20SEAPHX",
+      "game_key": "26JUN20SEAPHX",
+      "mid": 0.7,
+      "bid": 0.7,
+      "ask": 0.71,
+      "volume": 10499.65,
+      "score": 0.8132058274115312,
+      "close": "2026-06-20T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26JUN20INDATL-ATL",
+      "title": "Indiana vs Atlanta winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUN20INDATL",
+      "game_key": "26JUN20INDATL",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 40349.39,
+      "score": 0.7326945657822033,
+      "close": "2026-06-20T20:00:00Z",
+      "result": ""
+    }
+  ]
+}
