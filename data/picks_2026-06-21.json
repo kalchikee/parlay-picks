@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-21",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUN211610BALLAD-LAD",
+      "title": "Baltimore vs Los Angeles D Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN211610BALLAD",
+      "game_key": "26JUN211610BALLAD",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 132206.34,
+      "score": 0.9165417427462867,
+      "close": "2026-06-21T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26JUN21GSLV-LV",
+      "title": "Golden State vs Las Vegas winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUN21GSLV",
+      "game_key": "26JUN21GSLV",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 56647.03,
+      "score": 0.770939238158854,
+      "close": "2026-06-21T23:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUN211510PITCOL-PIT",
+      "title": "Pittsburgh vs Colorado Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN211510PITCOL",
+      "game_key": "26JUN211510PITCOL",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 16111.11,
+      "score": 0.5527375154281432,
+      "close": "2026-06-21T22:10:00Z",
+      "result": ""
+    }
+  ]
+}
