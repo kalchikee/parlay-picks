@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-25",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUN251235SEAPIT-SEA",
+      "title": "Seattle vs Pittsburgh Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN251235SEAPIT",
+      "game_key": "26JUN251235SEAPIT",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 224027.98,
+      "score": 0.5908434087660099,
+      "close": "2026-06-25T19:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUN251210KCTB-TB",
+      "title": "Kansas City vs Tampa Bay Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN251210KCTB",
+      "game_key": "26JUN251210KCTB",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 195417.62,
+      "score": 0.588865457322955,
+      "close": "2026-06-25T19:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUN251545ATHSF-SF",
+      "title": "A's vs San Francisco Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN251545ATHSF",
+      "game_key": "26JUN251545ATHSF",
+      "mid": 0.56,
+      "bid": 0.55,
+      "ask": 0.56,
+      "volume": 50238.41,
+      "score": 0.5025345295307049,
+      "close": "2026-06-25T22:45:00Z",
+      "result": ""
+    }
+  ]
+}
