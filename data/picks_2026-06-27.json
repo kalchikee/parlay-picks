@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-27",
+  "legs": [
+    {
+      "ticker": "KXUFCFIGHT-26JUN27OFLREY-REY",
+      "title": "Will Javier Reyes win the Ofli vs Reyes professional MMA fight scheduled for Jun 27, 2026?",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26JUN27OFLREY",
+      "game_key": "26JUN27OFLREY",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 26554.66,
+      "score": 0.8933046915060057,
+      "close": "2026-06-27T19:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26JUN27PHXTOR-TOR",
+      "title": "Phoenix vs Toronto winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUN27PHXTOR",
+      "game_key": "26JUN27PHXTOR",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 63386.81,
+      "score": 0.8725666298683115,
+      "close": "2026-06-27T21:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUN271507TEXTOR-TOR",
+      "title": "Texas vs Toronto Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN271507TEXTOR",
+      "game_key": "26JUN271507TEXTOR",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 27099.23,
+      "score": 0.760265231698886,
+      "close": "2026-06-27T22:07:00Z",
+      "result": ""
+    }
+  ]
+}
