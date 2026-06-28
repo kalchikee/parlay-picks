@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-28",
+  "legs": [
+    {
+      "ticker": "KXWNBAGAME-26JUN28PDXWSH-WSH",
+      "title": "Portland vs Washington winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUN28PDXWSH",
+      "game_key": "26JUN28PDXWSH",
+      "mid": 0.69,
+      "bid": 0.69,
+      "ask": 0.7,
+      "volume": 9691.53,
+      "score": 0.8453797448150212,
+      "close": "2026-06-28T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUN281410CHCMIL-MIL",
+      "title": "Chicago C vs Milwaukee Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN281410CHCMIL",
+      "game_key": "26JUN281410CHCMIL",
+      "mid": 0.66,
+      "bid": 0.65,
+      "ask": 0.66,
+      "volume": 17627.42,
+      "score": 0.8207062917452814,
+      "close": "2026-06-28T21:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUN281335WSHBAL-BAL",
+      "title": "Washington vs Baltimore Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUN281335WSHBAL",
+      "game_key": "26JUN281335WSHBAL",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 31509.72,
+      "score": 0.7957814847995529,
+      "close": "2026-06-28T20:35:00Z",
+      "result": ""
+    }
+  ]
+}
