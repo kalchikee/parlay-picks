@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-01",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUL011335DETNYY-NYY",
+      "title": "Detroit vs New York Y Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL011335DETNYY",
+      "game_key": "26JUL011335DETNYY",
+      "mid": 0.56,
+      "bid": 0.56,
+      "ask": 0.57,
+      "volume": 117541.73,
+      "score": 0.5481730692816175,
+      "close": "2026-07-01T20:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL011335WSHBOS-BOS",
+      "title": "Washington vs Boston Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL011335WSHBOS",
+      "game_key": "26JUL011335WSHBOS",
+      "mid": 0.56,
+      "bid": 0.56,
+      "ask": 0.57,
+      "volume": 33012.53,
+      "score": 0.5297892936292825,
+      "close": "2026-07-01T20:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL011235CWSBAL-BAL",
+      "title": "Chicago WS vs Baltimore Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL011235CWSBAL",
+      "game_key": "26JUL011235CWSBAL",
+      "mid": 0.56,
+      "bid": 0.55,
+      "ask": 0.56,
+      "volume": 57032.78,
+      "score": 0.5043708180435633,
+      "close": "2026-07-01T19:35:00Z",
+      "result": ""
+    }
+  ]
+}
