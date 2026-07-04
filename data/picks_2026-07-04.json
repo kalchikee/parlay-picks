@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-04",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUL041335MINNYY-NYY",
+      "title": "Minnesota vs New York Y Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL041335MINNYY",
+      "game_key": "26JUL041335MINNYY",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 109459.29,
+      "score": 0.6804750875598315,
+      "close": "2026-07-04T20:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26JUL04GSATL-ATL",
+      "title": "Golden State vs Atlanta winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUL04GSATL",
+      "game_key": "26JUL04GSATL",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 63191.61,
+      "score": 0.6725219806829448,
+      "close": "2026-07-04T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL041105PITWSH-PIT",
+      "title": "Pittsburgh vs Washington Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL041105PITWSH",
+      "game_key": "26JUL041105PITWSH",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 119885.05,
+      "score": 0.648458834291419,
+      "close": "2026-07-04T18:05:00Z",
+      "result": ""
+    }
+  ]
+}
