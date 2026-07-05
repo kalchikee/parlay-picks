@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-05",
+  "legs": [
+    {
+      "ticker": "KXWNBAGAME-26JUL05DALTOR-DAL",
+      "title": "Dallas vs Toronto winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUL05DALTOR",
+      "game_key": "26JUL05DALTOR",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 32135.13,
+      "score": 0.7960660020384077,
+      "close": "2026-07-05T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL051430STLCHC-CHC",
+      "title": "St. Louis vs Chicago C Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL051430STLCHC",
+      "game_key": "26JUL051430STLCHC",
+      "mid": 0.58,
+      "bid": 0.58,
+      "ask": 0.59,
+      "volume": 15587.83,
+      "score": 0.5855928553585067,
+      "close": "2026-07-05T21:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL051400CWSCLE-CLE",
+      "title": "Chicago WS vs Cleveland Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL051400CWSCLE",
+      "game_key": "26JUL051400CWSCLE",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 18720.76,
+      "score": 0.5549107825219254,
+      "close": "2026-07-05T21:00:00Z",
+      "result": ""
+    }
+  ]
+}
