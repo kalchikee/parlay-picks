@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-11",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUL111605NYYWSH-NYY",
+      "title": "New York Y vs Washington Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL111605NYYWSH",
+      "game_key": "26JUL111605NYYWSH",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 44669.09,
+      "score": 0.8008335701700714,
+      "close": "2026-07-11T23:05:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26JUL11NYMIN-MIN",
+      "title": "New York vs Minnesota winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUL11NYMIN",
+      "game_key": "26JUL11NYMIN",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 40871.11,
+      "score": 0.7662138810893087,
+      "close": "2026-07-11T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL111410LAAMIN-MIN",
+      "title": "Los Angeles A vs Minnesota Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL111410LAAMIN",
+      "game_key": "26JUL111410LAAMIN",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 101715.52,
+      "score": 0.7460795741226987,
+      "close": "2026-07-11T21:10:00Z",
+      "result": ""
+    }
+  ]
+}
