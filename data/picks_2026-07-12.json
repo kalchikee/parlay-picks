@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-12",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUL121610AZLAD-LAD",
+      "title": "Arizona vs Los Angeles D Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL121610AZLAD",
+      "game_key": "26JUL121610AZLAD",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 48491.23,
+      "score": 0.8686887733437818,
+      "close": "2026-07-12T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26JUL12NYTOR-NY",
+      "title": "New York vs Toronto winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUL12NYTOR",
+      "game_key": "26JUL12NYTOR",
+      "mid": 0.7,
+      "bid": 0.7,
+      "ask": 0.71,
+      "volume": 28120.12,
+      "score": 0.8274672389887703,
+      "close": "2026-07-12T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26JUL12SEAWSH-WSH",
+      "title": "Seattle vs Washington winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUL12SEAWSH",
+      "game_key": "26JUL12SEAWSH",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 16877.15,
+      "score": 0.7534099703437491,
+      "close": "2026-07-12T22:00:00Z",
+      "result": ""
+    }
+  ]
+}
