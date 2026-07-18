@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-18",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUL181605NYMPHI-PHI",
+      "title": "New York M vs Philadelphia Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL181605NYMPHI",
+      "game_key": "26JUL181605NYMPHI",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 55694.46,
+      "score": 0.6706937332496032,
+      "close": "2026-07-18T23:05:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL181420MINCHC-CHC",
+      "title": "Minnesota vs Chicago C Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL181420MINCHC",
+      "game_key": "26JUL181420MINCHC",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 56570.27,
+      "score": 0.5709196083852305,
+      "close": "2026-07-18T21:20:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL171910PITCLE-CLE",
+      "title": "Pittsburgh vs Cleveland Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL171910PITCLE",
+      "game_key": "26JUL171910PITCLE",
+      "mid": 0.56,
+      "bid": 0.55,
+      "ask": 0.56,
+      "volume": 211598.74,
+      "score": 0.5233504359097298,
+      "close": "2026-07-18T02:10:00Z",
+      "result": ""
+    }
+  ]
+}
