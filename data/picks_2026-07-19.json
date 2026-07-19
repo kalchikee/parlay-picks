@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-19",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUL191610SFSEA-SEA",
+      "title": "San Francisco vs Seattle Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL191610SFSEA",
+      "game_key": "26JUL191610SFSEA",
+      "mid": 0.62,
+      "bid": 0.61,
+      "ask": 0.63,
+      "volume": 23610.69,
+      "score": 0.6707702893036034,
+      "close": "2026-07-19T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26JUL19LADAL-DAL",
+      "title": "Los Angeles vs Dallas winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUL19LADAL",
+      "game_key": "26JUL19LADAL",
+      "mid": 0.8,
+      "bid": 0.79,
+      "ask": 0.8,
+      "volume": 24026.28,
+      "score": 0.525189551133141,
+      "close": "2026-07-19T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL191420MINCHC-CHC",
+      "title": "Minnesota vs Chicago C Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL191420MINCHC",
+      "game_key": "26JUL191420MINCHC",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 17741.57,
+      "score": 0.6541330683033829,
+      "close": "2026-07-19T21:20:00Z",
+      "result": ""
+    }
+  ]
+}
