@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-22",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUL221335PITNYY-NYY",
+      "title": "Pittsburgh vs New York Y Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL221335PITNYY",
+      "game_key": "26JUL221335PITNYY",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 126811.7,
+      "score": 0.715938644153686,
+      "close": "2026-07-22T20:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26JUL22MINSEA-MIN",
+      "title": "Minnesota vs Seattle winner?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26JUL22MINSEA",
+      "game_key": "26JUL22MINSEA",
+      "mid": 0.81,
+      "bid": 0.8,
+      "ask": 0.81,
+      "volume": 121199.04,
+      "score": 0.515283305995345,
+      "close": "2026-07-22T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL211905PITNYY-NYY",
+      "title": "Pittsburgh vs New York Y Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL211905PITNYY",
+      "game_key": "26JUL211905PITNYY",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 329366.35,
+      "score": 0.6964226409008716,
+      "close": "2026-07-22T02:05:00Z",
+      "result": ""
+    }
+  ]
+}
