@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-25",
+  "legs": [
+    {
+      "ticker": "KXUFCFIGHT-26JUL25ALIDAV-ALI",
+      "title": "Will Nurullo Aliev win the Aliev vs Davis professional MMA fight scheduled for Jul 25, 2026?",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26JUL25ALIDAV",
+      "game_key": "26JUL25ALIDAV",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 96706.52,
+      "score": 0.912015191847085,
+      "close": "2026-07-25T18:20:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL251310KCDET-DET",
+      "title": "Kansas City vs Detroit Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL251310KCDET",
+      "game_key": "26JUL251310KCDET",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 118633.14,
+      "score": 0.7483068675175455,
+      "close": "2026-07-25T20:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXUFCFIGHT-26JUL25VAGIZA-VAG",
+      "title": "Will Abubakar Vagaev win the Vagaev vs Izagakhmaev professional MMA fight scheduled for Jul 25, 2026?",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26JUL25VAGIZA",
+      "game_key": "26JUL25VAGIZA",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 18665.93,
+      "score": 0.8882016544275612,
+      "close": "2026-07-25T19:00:00Z",
+      "result": ""
+    }
+  ]
+}
