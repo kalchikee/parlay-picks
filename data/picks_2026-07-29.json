@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-29",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26JUL291210PHIMIA-PHI",
+      "title": "Philadelphia vs Miami Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL291210PHIMIA",
+      "game_key": "26JUL291210PHIMIA",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 239859.11,
+      "score": 0.758498540596433,
+      "close": "2026-07-29T19:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL291310BALDET-DET",
+      "title": "Baltimore vs Detroit Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL291310BALDET",
+      "game_key": "26JUL291310BALDET",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 82517.56,
+      "score": 0.7097182125878674,
+      "close": "2026-07-29T20:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26JUL281910ATLNYM-ATL",
+      "title": "Atlanta vs New York M Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26JUL281910ATLNYM",
+      "game_key": "26JUL281910ATLNYM",
+      "mid": 0.58,
+      "bid": 0.58,
+      "ask": 0.59,
+      "volume": 314054.54,
+      "score": 0.6290668358661539,
+      "close": "2026-07-29T02:10:00Z",
+      "result": ""
+    }
+  ]
+}
