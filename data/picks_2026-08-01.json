@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-01",
+  "legs": [
+    {
+      "ticker": "KXUFCFIGHT-26AUG01KLEMUS-KLE",
+      "title": "Will Ludovit Klein win the Klein vs Musayev professional MMA fight scheduled for Aug 1, 2026?",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26AUG01KLEMUS",
+      "game_key": "26AUG01KLEMUS",
+      "mid": 0.69,
+      "bid": 0.69,
+      "ask": 0.7,
+      "volume": 32551.68,
+      "score": 0.8629191135841617,
+      "close": "2026-08-01T21:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26AUG01LVCHI-LV",
+      "title": "Las Vegas vs Chicago women's Pro Basketball game: Las Vegas wins?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26AUG01LVCHI",
+      "game_key": "26AUG01LVCHI",
+      "mid": 0.7,
+      "bid": 0.7,
+      "ask": 0.71,
+      "volume": 122222.94,
+      "score": 0.8487384242068156,
+      "close": "2026-08-01T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG011610MINSEA-SEA",
+      "title": "Minnesota vs Seattle Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG011610MINSEA",
+      "game_key": "26AUG011610MINSEA",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 72323.02,
+      "score": 0.6744758850908861,
+      "close": "2026-08-01T23:10:00Z",
+      "result": ""
+    }
+  ]
+}
