@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-02",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26AUG021515MILLAA-MIL",
+      "title": "Milwaukee vs Los Angeles A Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG021515MILLAA",
+      "game_key": "26AUG021515MILLAA",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 322023.16,
+      "score": 0.9294295702468487,
+      "close": "2026-08-02T22:15:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26AUG02INDMIN-MIN",
+      "title": "Indiana vs Minnesota women's Pro Basketball game: Minnesota wins?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26AUG02INDMIN",
+      "game_key": "26AUG02INDMIN",
+      "mid": 0.66,
+      "bid": 0.65,
+      "ask": 0.66,
+      "volume": 44652.55,
+      "score": 0.8341615421816222,
+      "close": "2026-08-02T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG021340PITCIN-CIN",
+      "title": "Pittsburgh vs Cincinnati Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG021340PITCIN",
+      "game_key": "26AUG021340PITCIN",
+      "mid": 0.58,
+      "bid": 0.58,
+      "ask": 0.59,
+      "volume": 100638.55,
+      "score": 0.6125921456944117,
+      "close": "2026-08-02T20:40:00Z",
+      "result": ""
+    }
+  ]
+}
