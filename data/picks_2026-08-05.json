@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-05",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26AUG051410TORHOU-HOU",
+      "title": "Toronto vs Houston Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG051410TORHOU",
+      "game_key": "26AUG051410TORHOU",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 197983.43,
+      "score": 0.7557209614665124,
+      "close": "2026-08-05T21:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG051435SFTEX-TEX",
+      "title": "San Francisco vs Texas Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG051435SFTEX",
+      "game_key": "26AUG051435SFTEX",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 18276.26,
+      "score": 0.7212295775915551,
+      "close": "2026-08-05T21:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG051510TBCOL-TB",
+      "title": "Tampa Bay vs Colorado Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG051510TBCOL",
+      "game_key": "26AUG051510TBCOL",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 33964.99,
+      "score": 0.6635343830353807,
+      "close": "2026-08-05T22:10:00Z",
+      "result": ""
+    }
+  ]
+}
