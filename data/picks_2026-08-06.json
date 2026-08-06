@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-06",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26AUG061235LAABAL-BAL",
+      "title": "Los Angeles A vs Baltimore Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG061235LAABAL",
+      "game_key": "26AUG061235LAABAL",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 193319.42,
+      "score": 0.8220425161163859,
+      "close": "2026-08-06T19:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG061240ATHCIN-CIN",
+      "title": "A's vs Cincinnati Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG061240ATHCIN",
+      "game_key": "26AUG061240ATHCIN",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 51073.63,
+      "score": 0.6694398908645822,
+      "close": "2026-08-06T19:40:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG061410PITMIL-MIL",
+      "title": "Pittsburgh vs Milwaukee Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG061410PITMIL",
+      "game_key": "26AUG061410PITMIL",
+      "mid": 0.56,
+      "bid": 0.56,
+      "ask": 0.57,
+      "volume": 55822.47,
+      "score": 0.5373936349661989,
+      "close": "2026-08-06T21:10:00Z",
+      "result": ""
+    }
+  ]
+}
