@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-08",
+  "legs": [
+    {
+      "ticker": "KXWNBAGAME-26AUG08INDCHI-IND",
+      "title": "Indiana vs Chicago women's Pro Basketball game: Indiana wins?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26AUG08INDCHI",
+      "game_key": "26AUG08INDCHI",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 69200.02,
+      "score": 0.8738368739991791,
+      "close": "2026-08-08T22:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG081610ATHBOS-BOS",
+      "title": "A's vs Boston Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG081610ATHBOS",
+      "game_key": "26AUG081610ATHBOS",
+      "mid": 0.71,
+      "bid": 0.71,
+      "ask": 0.72,
+      "volume": 192301.44,
+      "score": 0.8219660845451158,
+      "close": "2026-08-08T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26AUG08LVMIN-MIN",
+      "title": "Las Vegas vs Minnesota women's Pro Basketball game: Minnesota wins?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26AUG08LVMIN",
+      "game_key": "26AUG08LVMIN",
+      "mid": 0.66,
+      "bid": 0.65,
+      "ask": 0.66,
+      "volume": 64813.9,
+      "score": 0.8395556051575881,
+      "close": "2026-08-08T20:00:00Z",
+      "result": ""
+    }
+  ]
+}
