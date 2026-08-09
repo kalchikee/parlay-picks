@@ -1,6 +1,29 @@
 {
   "wins": 0,
-  "losses": 0,
+  "losses": 1,
   "pushes": 0,
-  "history": []
+  "history": [
+    {
+      "date": "2026-08-08",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Indiana vs Chicago women's Pro Basketball game: Indiana wins?",
+          "result": "win",
+          "clv": 0.33
+        },
+        {
+          "title": "A's vs Boston Winner?",
+          "result": "loss",
+          "clv": -0.71
+        },
+        {
+          "title": "Las Vegas vs Minnesota women's Pro Basketball game: Minnesota wins?",
+          "result": "win",
+          "clv": 0.34
+        }
+      ],
+      "avg_clv": -0.013
+    }
+  ]
 }
