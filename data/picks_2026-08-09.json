@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-09",
+  "legs": [
+    {
+      "ticker": "KXWNBAGAME-26AUG09DALMIN-MIN",
+      "title": "Dallas vs Minnesota women's Pro Basketball game: Minnesota wins?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26AUG09DALMIN",
+      "game_key": "26AUG09DALMIN",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 35776.85,
+      "score": 0.8976200700042087,
+      "close": "2026-08-09T22:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG091335ATHBOS-BOS",
+      "title": "A's vs Boston Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG091335ATHBOS",
+      "game_key": "26AUG091335ATHBOS",
+      "mid": 0.7,
+      "bid": 0.7,
+      "ask": 0.71,
+      "volume": 116834.59,
+      "score": 0.8480857146285536,
+      "close": "2026-08-09T20:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG091410MINMIL-MIL",
+      "title": "Minnesota vs Milwaukee Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG091410MINMIL",
+      "game_key": "26AUG091410MINMIL",
+      "mid": 0.7,
+      "bid": 0.7,
+      "ask": 0.71,
+      "volume": 50285.6,
+      "score": 0.8358814545476616,
+      "close": "2026-08-09T21:10:00Z",
+      "result": ""
+    }
+  ]
+}
