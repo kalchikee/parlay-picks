@@ -1,6 +1,6 @@
 {
   "wins": 0,
-  "losses": 1,
+  "losses": 2,
   "pushes": 0,
   "history": [
     {
@@ -24,6 +24,28 @@
         }
       ],
       "avg_clv": -0.013
+    },
+    {
+      "date": "2026-08-09",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Dallas vs Minnesota women's Pro Basketball game: Minnesota wins?",
+          "result": "win",
+          "clv": 0.31
+        },
+        {
+          "title": "A's vs Boston Winner?",
+          "result": "loss",
+          "clv": -0.7
+        },
+        {
+          "title": "Minnesota vs Milwaukee Winner?",
+          "result": "win",
+          "clv": 0.3
+        }
+      ],
+      "avg_clv": -0.03
     }
   ]
 }
