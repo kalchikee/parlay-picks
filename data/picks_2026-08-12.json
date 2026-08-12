@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-12",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26AUG121505TBATH-TB",
+      "title": "Tampa Bay vs A's Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG121505TBATH",
+      "game_key": "26AUG121505TBATH",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 130700.59,
+      "score": 0.883042584934951,
+      "close": "2026-08-12T22:05:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG121540COLAZ-AZ",
+      "title": "Colorado vs Arizona Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG121540COLAZ",
+      "game_key": "26AUG121540COLAZ",
+      "mid": 0.62,
+      "bid": 0.61,
+      "ask": 0.63,
+      "volume": 30743.08,
+      "score": 0.674591579173335,
+      "close": "2026-08-12T22:40:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG121415PHISTL-PHI",
+      "title": "Philadelphia vs St. Louis Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG121415PHISTL",
+      "game_key": "26AUG121415PHISTL",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 47184.02,
+      "score": 0.6682931646431054,
+      "close": "2026-08-12T21:15:00Z",
+      "result": ""
+    }
+  ]
+}
