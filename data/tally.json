@@ -1,6 +1,6 @@
 {
   "wins": 0,
-  "losses": 2,
+  "losses": 3,
   "pushes": 0,
   "history": [
     {
@@ -46,6 +46,28 @@
         }
       ],
       "avg_clv": -0.03
+    },
+    {
+      "date": "2026-08-12",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Tampa Bay vs A's Winner?",
+          "result": "win",
+          "clv": 0.33
+        },
+        {
+          "title": "Colorado vs Arizona Winner?",
+          "result": "loss",
+          "clv": -0.62
+        },
+        {
+          "title": "Philadelphia vs St. Louis Winner?",
+          "result": "loss",
+          "clv": -0.6
+        }
+      ],
+      "avg_clv": -0.297
     }
   ]
 }
