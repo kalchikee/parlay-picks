@@ -1,6 +1,6 @@
 {
   "wins": 0,
-  "losses": 3,
+  "losses": 4,
   "pushes": 0,
   "history": [
     {
@@ -68,6 +68,28 @@
         }
       ],
       "avg_clv": -0.297
+    },
+    {
+      "date": "2026-08-13",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Boston vs Toronto Winner?",
+          "result": "win",
+          "clv": 0.41
+        },
+        {
+          "title": "Seattle vs New York Y Winner?",
+          "result": "loss",
+          "clv": -0.57
+        },
+        {
+          "title": "Chicago C vs Washington Winner?",
+          "result": "loss",
+          "clv": -0.56
+        }
+      ],
+      "avg_clv": -0.24
     }
   ]
 }
