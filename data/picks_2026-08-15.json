@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-15",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26AUG151420STLCHC-CHC",
+      "title": "St. Louis vs Chicago C Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG151420STLCHC",
+      "game_key": "26AUG151420STLCHC",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 69840.91,
+      "score": 0.7406369963141073,
+      "close": "2026-08-15T21:20:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNFLGAME-26AUG15CARBUF-BUF",
+      "title": "Will Buffalo win the Carolina vs Buffalo Pro Football game?",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26AUG15CARBUF",
+      "game_key": "26AUG15CARBUF",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 104986.65,
+      "score": 0.6798711359372703,
+      "close": "2026-08-15T23:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26AUG15NYCONN-NY",
+      "title": "New York vs Connecticut women's Pro Basketball game: New York wins?",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26AUG15NYCONN",
+      "game_key": "26AUG15NYCONN",
+      "mid": 0.79,
+      "bid": 0.78,
+      "ask": 0.79,
+      "volume": 306492.17,
+      "score": 0.5953806461337308,
+      "close": "2026-08-15T20:00:00Z",
+      "result": ""
+    }
+  ]
+}
