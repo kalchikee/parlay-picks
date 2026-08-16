@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-16",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26AUG161610MILLAD-LAD",
+      "title": "Milwaukee vs Los Angeles D Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG161610MILLAD",
+      "game_key": "26AUG161610MILLAD",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 39375.78,
+      "score": 0.7323409723293106,
+      "close": "2026-08-16T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG161340WSHNYM-NYM",
+      "title": "Washington vs New York M Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG161340WSHNYM",
+      "game_key": "26AUG161340WSHNYM",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 15821.51,
+      "score": 0.6858082643356722,
+      "close": "2026-08-16T20:40:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG161515STLCHC-CHC",
+      "title": "St. Louis vs Chicago C Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG161515STLCHC",
+      "game_key": "26AUG161515STLCHC",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 51352.4,
+      "score": 0.6361853581848581,
+      "close": "2026-08-16T22:15:00Z",
+      "result": ""
+    }
+  ]
+}
