@@ -1,6 +1,6 @@
 {
   "wins": 0,
-  "losses": 4,
+  "losses": 5,
   "pushes": 0,
   "history": [
     {
@@ -90,6 +90,28 @@
         }
       ],
       "avg_clv": -0.24
+    },
+    {
+      "date": "2026-08-15",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "St. Louis vs Chicago C Winner?",
+          "result": "loss",
+          "clv": -0.62
+        },
+        {
+          "title": "Will Buffalo win the Carolina vs Buffalo Pro Football game?",
+          "result": "win",
+          "clv": 0.4
+        },
+        {
+          "title": "New York vs Connecticut women's Pro Basketball game: New York wins?",
+          "result": "win",
+          "clv": 0.21
+        }
+      ],
+      "avg_clv": -0.003
     }
   ]
 }
