@@ -1,6 +1,6 @@
 {
   "wins": 0,
-  "losses": 5,
+  "losses": 6,
   "pushes": 0,
   "history": [
     {
@@ -112,6 +112,28 @@
         }
       ],
       "avg_clv": -0.003
+    },
+    {
+      "date": "2026-08-16",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Milwaukee vs Los Angeles D Winner?",
+          "result": "loss",
+          "clv": -0.62
+        },
+        {
+          "title": "Washington vs New York M Winner?",
+          "result": "win",
+          "clv": 0.39
+        },
+        {
+          "title": "St. Louis vs Chicago C Winner?",
+          "result": "loss",
+          "clv": -0.59
+        }
+      ],
+      "avg_clv": -0.273
     }
   ]
 }
