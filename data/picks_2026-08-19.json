@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-19",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26AUG191235DETPIT-PIT",
+      "title": "Detroit vs Pittsburgh Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG191235DETPIT",
+      "game_key": "26AUG191235DETPIT",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 85698.36,
+      "score": 0.6435990836985811,
+      "close": "2026-08-19T19:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG191420CWSCHC-CHC",
+      "title": "Chicago WS vs Chicago C Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG191420CWSCHC",
+      "game_key": "26AUG191420CWSCHC",
+      "mid": 0.58,
+      "bid": 0.58,
+      "ask": 0.59,
+      "volume": 25700.48,
+      "score": 0.5928313744864054,
+      "close": "2026-08-19T21:20:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG191610AZBOS-BOS",
+      "title": "Arizona vs Boston Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG191610AZBOS",
+      "game_key": "26AUG191610AZBOS",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 28009.59,
+      "score": 0.5607435583911783,
+      "close": "2026-08-19T23:10:00Z",
+      "result": ""
+    }
+  ]
+}
