@@ -1,6 +1,6 @@
 {
   "wins": 0,
-  "losses": 6,
+  "losses": 7,
   "pushes": 0,
   "history": [
     {
@@ -134,6 +134,28 @@
         }
       ],
       "avg_clv": -0.273
+    },
+    {
+      "date": "2026-08-19",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Detroit vs Pittsburgh Winner?",
+          "result": "win",
+          "clv": 0.41
+        },
+        {
+          "title": "Chicago WS vs Chicago C Winner?",
+          "result": "loss",
+          "clv": -0.58
+        },
+        {
+          "title": "Arizona vs Boston Winner?",
+          "result": "loss",
+          "clv": -0.57
+        }
+      ],
+      "avg_clv": -0.247
     }
   ]
 }
