@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-20",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26AUG201310SFCLE-CLE",
+      "title": "San Francisco vs Cleveland Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG201310SFCLE",
+      "game_key": "26AUG201310SFCLE",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 26954.42,
+      "score": 0.7935209997066822,
+      "close": "2026-08-20T20:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG201310TORTB-TB",
+      "title": "Toronto vs Tampa Bay Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG201310TORTB",
+      "game_key": "26AUG201310TORTB",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 35478.39,
+      "score": 0.6974987967812522,
+      "close": "2026-08-20T20:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG201410ATHKC-KC",
+      "title": "A's vs Kansas City Winner?",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG201410ATHKC",
+      "game_key": "26AUG201410ATHKC",
+      "mid": 0.56,
+      "bid": 0.56,
+      "ask": 0.57,
+      "volume": 24001.04,
+      "score": 0.5251743353577139,
+      "close": "2026-08-20T21:10:00Z",
+      "result": ""
+    }
+  ]
+}
