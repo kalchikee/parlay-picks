@@ -1,6 +1,6 @@
 {
   "wins": 0,
-  "losses": 7,
+  "losses": 8,
   "pushes": 0,
   "history": [
     {
@@ -156,6 +156,28 @@
         }
       ],
       "avg_clv": -0.247
+    },
+    {
+      "date": "2026-08-20",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "San Francisco vs Cleveland Winner?",
+          "result": "win",
+          "clv": 0.35
+        },
+        {
+          "title": "Toronto vs Tampa Bay Winner?",
+          "result": "loss",
+          "clv": -0.61
+        },
+        {
+          "title": "A's vs Kansas City Winner?",
+          "result": "win",
+          "clv": 0.44
+        }
+      ],
+      "avg_clv": 0.06
     }
   ]
 }
