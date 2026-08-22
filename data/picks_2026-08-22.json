@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-22",
+  "legs": [
+    {
+      "ticker": "KXEPLGAME-26AUG22HULMUN-MUN",
+      "title": "Hull City vs Manchester United Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26AUG22HULMUN",
+      "game_key": "26AUG22HULMUN",
+      "mid": 0.72,
+      "bid": 0.72,
+      "ask": 0.73,
+      "volume": 797091.86,
+      "score": 0.8092169458027996,
+      "close": "2026-08-22T14:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNFLGAME-26AUG22ATLIND-IND",
+      "title": "Atlanta vs Indianapolis Pro Football game: IND Colts wins?",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26AUG22ATLIND",
+      "game_key": "26AUG22ATLIND",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 28622.41,
+      "score": 0.7943902066151224,
+      "close": "2026-08-22T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG221610WSHMIA-MIA",
+      "title": "Miami wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG221610WSHMIA",
+      "game_key": "26AUG221610WSHMIA",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 26103.48,
+      "score": 0.7263899469803047,
+      "close": "2026-08-22T23:10:00Z",
+      "result": ""
+    }
+  ]
+}
