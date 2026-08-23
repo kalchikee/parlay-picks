@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-23",
+  "legs": [
+    {
+      "ticker": "KXEPLGAME-26AUG23MCIBOU-MCI",
+      "title": "Manchester City vs Bournemouth Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26AUG23MCIBOU",
+      "game_key": "26AUG23MCIBOU",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 599294.93,
+      "score": 0.9384213534535384,
+      "close": "2026-08-23T16:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG231515SFBOS-BOS",
+      "title": "Boston wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG231515SFBOS",
+      "game_key": "26AUG231515SFBOS",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 21114.84,
+      "score": 0.8899862598286552,
+      "close": "2026-08-23T22:15:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26AUG23SEADAL-DAL",
+      "title": "Dallas wins",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26AUG23SEADAL",
+      "game_key": "26AUG23SEADAL",
+      "mid": 0.79,
+      "bid": 0.78,
+      "ask": 0.79,
+      "volume": 145565.82,
+      "score": 0.5846019803728555,
+      "close": "2026-08-23T23:00:00Z",
+      "result": ""
+    }
+  ]
+}
