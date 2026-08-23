@@ -1,6 +1,6 @@
 {
   "wins": 0,
-  "losses": 8,
+  "losses": 9,
   "pushes": 0,
   "history": [
     {
@@ -178,6 +178,28 @@
         }
       ],
       "avg_clv": 0.06
+    },
+    {
+      "date": "2026-08-22",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Hull City vs Manchester United Winner?",
+          "result": "loss",
+          "clv": -0.72
+        },
+        {
+          "title": "Atlanta vs Indianapolis Pro Football game: IND Colts wins?",
+          "result": "loss",
+          "clv": -0.65
+        },
+        {
+          "title": "Miami wins",
+          "result": "win",
+          "clv": 0.38
+        }
+      ],
+      "avg_clv": -0.33
     }
   ]
 }
