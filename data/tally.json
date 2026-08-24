@@ -1,5 +1,5 @@
 {
-  "wins": 0,
+  "wins": 1,
   "losses": 9,
   "pushes": 0,
   "history": [
@@ -200,6 +200,28 @@
         }
       ],
       "avg_clv": -0.33
+    },
+    {
+      "date": "2026-08-23",
+      "result": "win",
+      "legs": [
+        {
+          "title": "Manchester City vs Bournemouth Winner?",
+          "result": "win",
+          "clv": 0.32
+        },
+        {
+          "title": "Boston wins",
+          "result": "win",
+          "clv": 0.32
+        },
+        {
+          "title": "Dallas wins",
+          "result": "win",
+          "clv": 0.21
+        }
+      ],
+      "avg_clv": 0.283
     }
   ]
 }
