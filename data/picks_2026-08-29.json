@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-29",
+  "legs": [
+    {
+      "ticker": "KXEPLGAME-26AUG29LFCNFO-LFC",
+      "title": "Liverpool vs Nottingham Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26AUG29LFCNFO",
+      "game_key": "26AUG29LFCNFO",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 1142839.88,
+      "score": 0.9458333333333333,
+      "close": "2026-08-29T14:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26AUG291610COLATL-ATL",
+      "title": "Atlanta wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG291610COLATL",
+      "game_key": "26AUG291610COLATL",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 58876.17,
+      "score": 0.90483131835389,
+      "close": "2026-08-29T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXUFCFIGHT-26AUG29PERMUD-MUD",
+      "title": "Su Mudaerji wins",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26AUG29PERMUD",
+      "game_key": "26AUG29PERMUD",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 207486.34,
+      "score": 0.8897329836641896,
+      "close": "2026-08-29T15:40:00Z",
+      "result": ""
+    }
+  ]
+}
