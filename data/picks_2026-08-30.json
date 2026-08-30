@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-30",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26AUG301335COLATL-ATL",
+      "title": "Atlanta wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26AUG301335COLATL",
+      "game_key": "26AUG301335COLATL",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 44625.39,
+      "score": 0.9008194008206155,
+      "close": "2026-08-30T20:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26AUG30MUNIPS-MUN",
+      "title": "Manchester United vs Ipswich Town Winner?",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26AUG30MUNIPS",
+      "game_key": "26AUG30MUNIPS",
+      "mid": 0.7,
+      "bid": 0.7,
+      "ask": 0.71,
+      "volume": 207406.13,
+      "score": 0.8563940529350097,
+      "close": "2026-08-30T18:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26AUG30MINATL-MIN",
+      "title": "Minnesota wins",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26AUG30MINATL",
+      "game_key": "26AUG30MINATL",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 136551.48,
+      "score": 0.5836765470519987,
+      "close": "2026-08-30T22:00:00Z",
+      "result": ""
+    }
+  ]
+}
