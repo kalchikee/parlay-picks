@@ -1,6 +1,6 @@
 {
   "wins": 1,
-  "losses": 10,
+  "losses": 11,
   "pushes": 0,
   "history": [
     {
@@ -244,6 +244,28 @@
         }
       ],
       "avg_clv": -0.01
+    },
+    {
+      "date": "2026-08-30",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Atlanta wins",
+          "result": "win",
+          "clv": 0.32
+        },
+        {
+          "title": "Manchester United vs Ipswich Town Winner?",
+          "result": "win",
+          "clv": 0.3
+        },
+        {
+          "title": "Minnesota wins",
+          "result": "loss",
+          "clv": -0.57
+        }
+      ],
+      "avg_clv": 0.017
     }
   ]
 }
