@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-05",
+  "legs": [
+    {
+      "ticker": "KXUFCFIGHT-26SEP05OUMBUK-OUM",
+      "title": "Oumar Sy wins",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26SEP05OUMBUK",
+      "game_key": "26SEP05OUMBUK",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 23390.05,
+      "score": 0.8914677050061526,
+      "close": "2026-09-05T22:40:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNCAAFGAME-26SEP05SCSUWAG-WAG",
+      "title": "Wagner wins",
+      "series": "KXNCAAFGAME",
+      "sport": "NCAAF",
+      "event": "KXNCAAFGAME-26SEP05SCSUWAG",
+      "game_key": "26SEP05SCSUWAG",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.7,
+      "volume": 1724.43,
+      "score": 0.7995548523230562,
+      "close": "2026-09-05T19:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP051610SFNYM-NYM",
+      "title": "New York M wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP051610SFNYM",
+      "game_key": "26SEP051610SFNYM",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 6625.46,
+      "score": 0.7065405345449557,
+      "close": "2026-09-05T23:10:00Z",
+      "result": ""
+    }
+  ]
+}
