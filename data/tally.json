@@ -1,6 +1,6 @@
 {
   "wins": 1,
-  "losses": 11,
+  "losses": 12,
   "pushes": 0,
   "history": [
     {
@@ -266,6 +266,28 @@
         }
       ],
       "avg_clv": 0.017
+    },
+    {
+      "date": "2026-09-05",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Oumar Sy wins",
+          "result": "loss",
+          "clv": -0.69
+        },
+        {
+          "title": "Wagner wins",
+          "result": "win",
+          "clv": 0.31
+        },
+        {
+          "title": "New York M wins",
+          "result": "loss",
+          "clv": -0.62
+        }
+      ],
+      "avg_clv": -0.333
     }
   ]
 }
