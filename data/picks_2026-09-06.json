@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-06",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26SEP061335LAAPIT-PIT",
+      "title": "Pittsburgh wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP061335LAAPIT",
+      "game_key": "26SEP061335LAAPIT",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 6255.27,
+      "score": 0.7723748686716414,
+      "close": "2026-09-06T20:35:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNCAAFGAME-26SEP06WCUCAMP-WCU",
+      "title": "Western Carolina wins",
+      "series": "KXNCAAFGAME",
+      "sport": "NCAAF",
+      "event": "KXNCAAFGAME-26SEP06WCUCAMP",
+      "game_key": "26SEP06WCUCAMP",
+      "mid": 0.62,
+      "bid": 0.61,
+      "ask": 0.64,
+      "volume": 11014.05,
+      "score": 0.6388982347899118,
+      "close": "2026-09-06T18:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26SEP06ARSCFC-ARS",
+      "title": "Arsenal wins",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26SEP06ARSCFC",
+      "game_key": "26SEP06ARSCFC",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 286827.08,
+      "score": 0.594420671722194,
+      "close": "2026-09-06T18:30:00Z",
+      "result": ""
+    }
+  ]
+}
