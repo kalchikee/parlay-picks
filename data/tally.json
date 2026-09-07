@@ -1,6 +1,6 @@
 {
   "wins": 1,
-  "losses": 12,
+  "losses": 13,
   "pushes": 0,
   "history": [
     {
@@ -288,6 +288,28 @@
         }
       ],
       "avg_clv": -0.333
+    },
+    {
+      "date": "2026-09-06",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Pittsburgh wins",
+          "result": "win",
+          "clv": 0.35
+        },
+        {
+          "title": "Western Carolina wins",
+          "result": "loss",
+          "clv": -0.62
+        },
+        {
+          "title": "Arsenal wins",
+          "result": "win",
+          "clv": 0.43
+        }
+      ],
+      "avg_clv": 0.053
     }
   ]
 }
