@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-09",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26SEP091610WSHSD-SD",
+      "title": "San Diego wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP091610WSHSD",
+      "game_key": "26SEP091610WSHSD",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 33306.64,
+      "score": 0.7632510274310839,
+      "close": "2026-09-09T23:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP091505TORATH-TOR",
+      "title": "Toronto wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP091505TORATH",
+      "game_key": "26SEP091505TORATH",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 12126.33,
+      "score": 0.7486243127578963,
+      "close": "2026-09-09T22:05:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP091610TEXSEA-SEA",
+      "title": "Seattle wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP091610TEXSEA",
+      "game_key": "26SEP091610TEXSEA",
+      "mid": 0.58,
+      "bid": 0.58,
+      "ask": 0.59,
+      "volume": 11969.47,
+      "score": 0.5817691640189174,
+      "close": "2026-09-09T23:10:00Z",
+      "result": ""
+    }
+  ]
+}
