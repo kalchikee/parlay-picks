@@ -1,6 +1,6 @@
 {
   "wins": 1,
-  "losses": 13,
+  "losses": 14,
   "pushes": 0,
   "history": [
     {
@@ -310,6 +310,28 @@
         }
       ],
       "avg_clv": 0.053
+    },
+    {
+      "date": "2026-09-09",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "San Diego wins",
+          "result": "win",
+          "clv": 0.36
+        },
+        {
+          "title": "Toronto wins",
+          "result": "loss",
+          "clv": -0.64
+        },
+        {
+          "title": "Seattle wins",
+          "result": "win",
+          "clv": 0.42
+        }
+      ],
+      "avg_clv": 0.047
     }
   ]
 }
