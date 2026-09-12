@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-12",
+  "legs": [
+    {
+      "ticker": "KXUFCFIGHT-26SEP12KINROS-KIN",
+      "title": "Sean King III wins",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26SEP12KINROS",
+      "game_key": "26SEP12KINROS",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 28437.97,
+      "score": 0.8609632863910663,
+      "close": "2026-09-12T23:20:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26SEP12LFCFUL-LFC",
+      "title": "Liverpool wins",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26SEP12LFCFUL",
+      "game_key": "26SEP12LFCFUL",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 534694.0,
+      "score": 0.8367701770249322,
+      "close": "2026-09-12T17:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP121610LADMIA-LAD",
+      "title": "Los Angeles D wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP121610LADMIA",
+      "game_key": "26SEP121610LADMIA",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 39945.81,
+      "score": 0.7992157077325874,
+      "close": "2026-09-12T23:10:00Z",
+      "result": ""
+    }
+  ]
+}
