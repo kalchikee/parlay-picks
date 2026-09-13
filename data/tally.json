@@ -1,6 +1,6 @@
 {
   "wins": 1,
-  "losses": 14,
+  "losses": 15,
   "pushes": 0,
   "history": [
     {
@@ -332,6 +332,28 @@
         }
       ],
       "avg_clv": 0.047
+    },
+    {
+      "date": "2026-09-12",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Sean King III wins",
+          "result": "win",
+          "clv": 0.33
+        },
+        {
+          "title": "Liverpool wins",
+          "result": "loss",
+          "clv": -0.65
+        },
+        {
+          "title": "Los Angeles D wins",
+          "result": "loss",
+          "clv": -0.65
+        }
+      ],
+      "avg_clv": -0.323
     }
   ]
 }
