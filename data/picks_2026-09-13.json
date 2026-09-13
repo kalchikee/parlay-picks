@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-13",
+  "legs": [
+    {
+      "ticker": "KXNFLGAME-26SEP13WASPHI-PHI",
+      "title": "Washington vs Philadelphia Pro Football game: Philadelphia wins?",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26SEP13WASPHI",
+      "game_key": "26SEP13WASPHI",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 243622.39,
+      "score": 0.9253905733141028,
+      "close": "2026-09-13T23:25:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP131410CINMIL-MIL",
+      "title": "Milwaukee wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP131410CINMIL",
+      "game_key": "26SEP131410CINMIL",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 27290.44,
+      "score": 0.7937003512598789,
+      "close": "2026-09-13T21:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNFLGAME-26SEP13ATLPIT-PIT",
+      "title": "Atlanta vs Pittsburgh Pro Football game: Pittsburgh wins?",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26SEP13ATLPIT",
+      "game_key": "26SEP13ATLPIT",
+      "mid": 0.72,
+      "bid": 0.72,
+      "ask": 0.73,
+      "volume": 615637.39,
+      "score": 0.8054774996105327,
+      "close": "2026-09-13T20:00:00Z",
+      "result": ""
+    }
+  ]
+}
