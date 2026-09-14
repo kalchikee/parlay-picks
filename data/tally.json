@@ -1,6 +1,6 @@
 {
   "wins": 1,
-  "losses": 15,
+  "losses": 16,
   "pushes": 0,
   "history": [
     {
@@ -354,6 +354,28 @@
         }
       ],
       "avg_clv": -0.323
+    },
+    {
+      "date": "2026-09-13",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Washington vs Philadelphia Pro Football game: Philadelphia wins?",
+          "result": "win",
+          "clv": 0.32
+        },
+        {
+          "title": "Milwaukee wins",
+          "result": "loss",
+          "clv": -0.65
+        },
+        {
+          "title": "Atlanta vs Pittsburgh Pro Football game: Pittsburgh wins?",
+          "result": "win",
+          "clv": 0.28
+        }
+      ],
+      "avg_clv": -0.017
     }
   ]
 }
