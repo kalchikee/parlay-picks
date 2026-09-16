@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-16",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26SEP161310CWSCLE-CLE",
+      "title": "Cleveland wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP161310CWSCLE",
+      "game_key": "26SEP161310CWSCLE",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 80401.0,
+      "score": 0.7426753816795837,
+      "close": "2026-09-16T20:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP161315SFSTL-STL",
+      "title": "St. Louis wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP161315SFSTL",
+      "game_key": "26SEP161315SFSTL",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 13520.91,
+      "score": 0.6502001973993755,
+      "close": "2026-09-16T20:15:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP161340NYYMIN-NYY",
+      "title": "New York Y wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP161340NYYMIN",
+      "game_key": "26SEP161340NYYMIN",
+      "mid": 0.58,
+      "bid": 0.58,
+      "ask": 0.59,
+      "volume": 126582.49,
+      "score": 0.6159124544805007,
+      "close": "2026-09-16T20:40:00Z",
+      "result": ""
+    }
+  ]
+}
