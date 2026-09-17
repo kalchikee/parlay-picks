@@ -1,6 +1,6 @@
 {
   "wins": 1,
-  "losses": 16,
+  "losses": 17,
   "pushes": 0,
   "history": [
     {
@@ -376,6 +376,28 @@
         }
       ],
       "avg_clv": -0.017
+    },
+    {
+      "date": "2026-09-16",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Cleveland wins",
+          "result": "win",
+          "clv": 0.38
+        },
+        {
+          "title": "St. Louis wins",
+          "result": "loss",
+          "clv": -0.6
+        },
+        {
+          "title": "New York Y wins",
+          "result": "loss",
+          "clv": -0.58
+        }
+      ],
+      "avg_clv": -0.267
     }
   ]
 }
