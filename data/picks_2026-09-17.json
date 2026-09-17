@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-17",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26SEP171310ATHTB-TB",
+      "title": "Tampa Bay wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP171310ATHTB",
+      "game_key": "26SEP171310ATHTB",
+      "mid": 0.71,
+      "bid": 0.71,
+      "ask": 0.72,
+      "volume": 40433.12,
+      "score": 0.7993912418242427,
+      "close": "2026-09-17T20:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP171240LADCIN-LAD",
+      "title": "Los Angeles D wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP171240LADCIN",
+      "game_key": "26SEP171240LADCIN",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 89537.56,
+      "score": 0.7109001751730591,
+      "close": "2026-09-17T19:40:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP171510SDCOL-SD",
+      "title": "San Diego wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP171510SDCOL",
+      "game_key": "26SEP171510SDCOL",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 49193.66,
+      "score": 0.7022303045065836,
+      "close": "2026-09-17T22:10:00Z",
+      "result": ""
+    }
+  ]
+}
