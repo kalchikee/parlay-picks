@@ -1,5 +1,5 @@
 {
-  "wins": 1,
+  "wins": 2,
   "losses": 17,
   "pushes": 0,
   "history": [
@@ -398,6 +398,28 @@
         }
       ],
       "avg_clv": -0.267
+    },
+    {
+      "date": "2026-09-17",
+      "result": "win",
+      "legs": [
+        {
+          "title": "Tampa Bay wins",
+          "result": "win",
+          "clv": 0.29
+        },
+        {
+          "title": "Los Angeles D wins",
+          "result": "win",
+          "clv": 0.39
+        },
+        {
+          "title": "San Diego wins",
+          "result": "win",
+          "clv": 0.39
+        }
+      ],
+      "avg_clv": 0.357
     }
   ]
 }
