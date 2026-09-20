@@ -1,5 +1,5 @@
 {
-  "wins": 2,
+  "wins": 3,
   "losses": 17,
   "pushes": 0,
   "history": [
@@ -420,6 +420,28 @@
         }
       ],
       "avg_clv": 0.357
+    },
+    {
+      "date": "2026-09-19",
+      "result": "win",
+      "legs": [
+        {
+          "title": "Newcastle wins",
+          "result": "win",
+          "clv": 0.4
+        },
+        {
+          "title": "Dallas wins",
+          "result": "win",
+          "clv": 0.2
+        },
+        {
+          "title": "Tampa Bay wins",
+          "result": "win",
+          "clv": 0.44
+        }
+      ],
+      "avg_clv": 0.347
     }
   ]
 }
