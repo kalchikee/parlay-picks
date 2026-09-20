@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-20",
+  "legs": [
+    {
+      "ticker": "KXNFLGAME-26SEP20PITNE-NE",
+      "title": "New England wins",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26SEP20PITNE",
+      "game_key": "26SEP20PITNE",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 236801.66,
+      "score": 0.9249794914167744,
+      "close": "2026-09-20T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP201340ATHCLE-CLE",
+      "title": "Cleveland wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP201340ATHCLE",
+      "game_key": "26SEP201340ATHCLE",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 45939.44,
+      "score": 0.9012395232286107,
+      "close": "2026-09-20T20:40:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26SEP20WSHIND-IND",
+      "title": "Indiana wins",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26SEP20WSHIND",
+      "game_key": "26SEP20WSHIND",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 17004.4,
+      "score": 0.8868520437488265,
+      "close": "2026-09-20T23:00:00Z",
+      "result": ""
+    }
+  ]
+}
