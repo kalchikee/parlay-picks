@@ -1,6 +1,6 @@
 {
   "wins": 3,
-  "losses": 17,
+  "losses": 18,
   "pushes": 0,
   "history": [
     {
@@ -442,6 +442,28 @@
         }
       ],
       "avg_clv": 0.347
+    },
+    {
+      "date": "2026-09-20",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "New England wins",
+          "result": "win",
+          "clv": 0.31
+        },
+        {
+          "title": "Cleveland wins",
+          "result": "win",
+          "clv": 0.31
+        },
+        {
+          "title": "Indiana wins",
+          "result": "loss",
+          "clv": -0.69
+        }
+      ],
+      "avg_clv": -0.023
     }
   ]
 }
