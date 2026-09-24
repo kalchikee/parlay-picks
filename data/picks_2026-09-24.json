@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-24",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26SEP241420MIACHC-CHC",
+      "title": "Chicago C wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP241420MIACHC",
+      "game_key": "26SEP241420MIACHC",
+      "mid": 0.66,
+      "bid": 0.65,
+      "ask": 0.66,
+      "volume": 42659.92,
+      "score": 0.8335006678894411,
+      "close": "2026-09-24T21:20:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP241510AZCOL-AZ",
+      "title": "Arizona wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP241510AZCOL",
+      "game_key": "26SEP241510AZCOL",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 46284.1,
+      "score": 0.7680143941079316,
+      "close": "2026-09-24T22:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP241235STLPIT-PIT",
+      "title": "Pittsburgh wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP241235STLPIT",
+      "game_key": "26SEP241235STLPIT",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 43072.76,
+      "score": 0.6336400900403844,
+      "close": "2026-09-24T19:35:00Z",
+      "result": ""
+    }
+  ]
+}
