@@ -1,5 +1,5 @@
 {
-  "wins": 3,
+  "wins": 4,
   "losses": 18,
   "pushes": 0,
   "history": [
@@ -464,6 +464,28 @@
         }
       ],
       "avg_clv": -0.023
+    },
+    {
+      "date": "2026-09-24",
+      "result": "win",
+      "legs": [
+        {
+          "title": "Chicago C wins",
+          "result": "win",
+          "clv": 0.34
+        },
+        {
+          "title": "Arizona wins",
+          "result": "win",
+          "clv": 0.36
+        },
+        {
+          "title": "Pittsburgh wins",
+          "result": "win",
+          "clv": 0.41
+        }
+      ],
+      "avg_clv": 0.37
     }
   ]
 }
