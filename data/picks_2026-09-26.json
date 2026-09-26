@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-26",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26SEP261605LADSF-LAD",
+      "title": "Los Angeles D wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP261605LADSF",
+      "game_key": "26SEP261605LADSF",
+      "mid": 0.74,
+      "bid": 0.74,
+      "ask": 0.75,
+      "volume": 31171.31,
+      "score": 0.6956251684748,
+      "close": "2026-09-26T23:05:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNHLGAME-26SEP26CARNSH-CAR",
+      "title": "Carolina wins",
+      "series": "KXNHLGAME",
+      "sport": "NHL",
+      "event": "KXNHLGAME-26SEP26CARNSH",
+      "game_key": "26SEP26CARNSH",
+      "mid": 0.61,
+      "bid": 0.59,
+      "ask": 0.63,
+      "volume": 847.8,
+      "score": 0.5142764470744063,
+      "close": "2026-09-26T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP261507CINTOR-TOR",
+      "title": "Toronto wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP261507CINTOR",
+      "game_key": "26SEP261507CINTOR",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 4584.11,
+      "score": 0.6345418343461997,
+      "close": "2026-09-26T22:07:00Z",
+      "result": ""
+    }
+  ]
+}
