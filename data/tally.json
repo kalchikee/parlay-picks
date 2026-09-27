@@ -1,6 +1,6 @@
 {
   "wins": 4,
-  "losses": 18,
+  "losses": 19,
   "pushes": 0,
   "history": [
     {
@@ -486,6 +486,28 @@
         }
       ],
       "avg_clv": 0.37
+    },
+    {
+      "date": "2026-09-26",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Los Angeles D wins",
+          "result": "win",
+          "clv": 0.26
+        },
+        {
+          "title": "Carolina wins",
+          "result": "win",
+          "clv": 0.39
+        },
+        {
+          "title": "Toronto wins",
+          "result": "loss",
+          "clv": -0.6
+        }
+      ],
+      "avg_clv": 0.017
     }
   ]
 }
