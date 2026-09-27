@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-27",
+  "legs": [
+    {
+      "ticker": "KXMLBGAME-26SEP271510STLMIL-MIL",
+      "title": "Milwaukee wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26SEP271510STLMIL",
+      "game_key": "26SEP271510STLMIL",
+      "mid": 0.69,
+      "bid": 0.69,
+      "ask": 0.7,
+      "volume": 61738.14,
+      "score": 0.8721851180415803,
+      "close": "2026-09-27T22:10:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNFLGAME-26SEP27NYJDET-DET",
+      "title": "Detroit wins",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26SEP27NYJDET",
+      "game_key": "26SEP27NYJDET",
+      "mid": 0.72,
+      "bid": 0.72,
+      "ask": 0.73,
+      "volume": 189596.16,
+      "score": 0.7884276512358457,
+      "close": "2026-09-27T23:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26SEP27NYMIN-MIN",
+      "title": "Minnesota wins",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26SEP27NYMIN",
+      "game_key": "26SEP27NYMIN",
+      "mid": 0.71,
+      "bid": 0.71,
+      "ask": 0.72,
+      "volume": 18570.64,
+      "score": 0.7881275623696404,
+      "close": "2026-09-27T21:00:00Z",
+      "result": ""
+    }
+  ]
+}
