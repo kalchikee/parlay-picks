@@ -1,6 +1,6 @@
 {
   "wins": 4,
-  "losses": 19,
+  "losses": 20,
   "pushes": 0,
   "history": [
     {
@@ -508,6 +508,28 @@
         }
       ],
       "avg_clv": 0.017
+    },
+    {
+      "date": "2026-09-27",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Milwaukee wins",
+          "result": "win",
+          "clv": 0.31
+        },
+        {
+          "title": "Detroit wins",
+          "result": "win",
+          "clv": 0.28
+        },
+        {
+          "title": "Minnesota wins",
+          "result": "loss",
+          "clv": -0.71
+        }
+      ],
+      "avg_clv": -0.04
     }
   ]
 }
