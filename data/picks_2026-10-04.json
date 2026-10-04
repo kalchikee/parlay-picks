@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-04",
+  "legs": [
+    {
+      "ticker": "KXNFLGAME-26OCT04KCLV-KC",
+      "title": "Kansas City wins",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26OCT04KCLV",
+      "game_key": "26OCT04KCLV",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 883188.41,
+      "score": 0.9107017787072036,
+      "close": "2026-10-04T23:25:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26OCT04NYATL-ATL",
+      "title": "Atlanta wins",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26OCT04NYATL",
+      "game_key": "26OCT04NYATL",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 18545.2,
+      "score": 0.6881077173774035,
+      "close": "2026-10-04T21:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLBGAME-26OCT041600SDMIL-MIL",
+      "title": "Milwaukee wins",
+      "series": "KXMLBGAME",
+      "sport": "MLB",
+      "event": "KXMLBGAME-26OCT041600SDMIL",
+      "game_key": "26OCT041600SDMIL",
+      "mid": 0.56,
+      "bid": 0.55,
+      "ask": 0.56,
+      "volume": 214326.4,
+      "score": 0.5235358556420009,
+      "close": "2026-10-04T23:00:00Z",
+      "result": ""
+    }
+  ]
+}
