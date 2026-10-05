@@ -1,5 +1,5 @@
 {
-  "wins": 4,
+  "wins": 5,
   "losses": 20,
   "pushes": 0,
   "history": [
@@ -530,6 +530,28 @@
         }
       ],
       "avg_clv": -0.04
+    },
+    {
+      "date": "2026-10-04",
+      "result": "win",
+      "legs": [
+        {
+          "title": "Kansas City wins",
+          "result": "win",
+          "clv": 0.33
+        },
+        {
+          "title": "Atlanta wins",
+          "result": "win",
+          "clv": 0.39
+        },
+        {
+          "title": "Milwaukee wins",
+          "result": "win",
+          "clv": 0.44
+        }
+      ],
+      "avg_clv": 0.387
     }
   ]
 }
