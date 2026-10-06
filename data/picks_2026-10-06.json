@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-06",
+  "legs": [
+    {
+      "ticker": "KXUFCFIGHT-26OCT05ONLBIE-ONL",
+      "title": "Summer Onley wins",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26OCT05ONLBIE",
+      "game_key": "26OCT05ONLBIE",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 7090.76,
+      "score": 0.7741897595372126,
+      "close": "2026-10-06T06:20:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXUFCFIGHT-26OCT05MIYSOA-SOA",
+      "title": "Mateus Soares wins",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26OCT05MIYSOA",
+      "game_key": "26OCT05MIYSOA",
+      "mid": 0.78,
+      "bid": 0.77,
+      "ask": 0.78,
+      "volume": 8641.11,
+      "score": 0.5770523177890784,
+      "close": "2026-10-06T05:20:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXUFCFIGHT-26OCT05EVEMAR-EVE",
+      "title": "Salhahuddin Everett wins",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26OCT05EVEMAR",
+      "game_key": "26OCT05EVEMAR",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 8309.96,
+      "score": 0.543153297777075,
+      "close": "2026-10-06T06:00:00Z",
+      "result": ""
+    }
+  ]
+}
