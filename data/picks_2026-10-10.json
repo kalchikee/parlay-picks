@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-10",
+  "legs": [
+    {
+      "ticker": "KXEPLGAME-26OCT10ARSLEE-ARS",
+      "title": "Arsenal wins",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26OCT10ARSLEE",
+      "game_key": "26OCT10ARSLEE",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 646184.99,
+      "score": 0.9395118955242537,
+      "close": "2026-10-10T14:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNHLGAME-26OCT10VANNJ-NJ",
+      "title": "New Jersey wins",
+      "series": "KXNHLGAME",
+      "sport": "NHL",
+      "event": "KXNHLGAME-26OCT10VANNJ",
+      "game_key": "26OCT10VANNJ",
+      "mid": 0.71,
+      "bid": 0.71,
+      "ask": 0.72,
+      "volume": 5876.97,
+      "score": 0.7714717824596498,
+      "close": "2026-10-10T22:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNHLGAME-26OCT10EDMSJ-EDM",
+      "title": "Edmonton wins",
+      "series": "KXNHLGAME",
+      "sport": "NHL",
+      "event": "KXNHLGAME-26OCT10EDMSJ",
+      "game_key": "26OCT10EDMSJ",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 10822.23,
+      "score": 0.6136438919853486,
+      "close": "2026-10-10T23:00:00Z",
+      "result": ""
+    }
+  ]
+}
