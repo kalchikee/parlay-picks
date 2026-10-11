@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-11",
+  "legs": [
+    {
+      "ticker": "KXNFLGAME-26OCT11DETARI-DET",
+      "title": "Detroit wins",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26OCT11DETARI",
+      "game_key": "26OCT11DETARI",
+      "mid": 0.69,
+      "bid": 0.69,
+      "ask": 0.7,
+      "volume": 64657.32,
+      "score": 0.8728539233150243,
+      "close": "2026-10-11T23:25:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBAGAME-26OCT11DALHOU-DAL",
+      "title": "Dallas wins",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26OCT11DALHOU",
+      "game_key": "26OCT11DALHOU",
+      "mid": 0.77,
+      "bid": 0.76,
+      "ask": 0.77,
+      "volume": 138791.22,
+      "score": 0.6505787331102634,
+      "close": "2026-10-11T13:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNFLGAME-26OCT11DENLAC-DEN",
+      "title": "Denver wins",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26OCT11DENLAC",
+      "game_key": "26OCT11DENLAC",
+      "mid": 0.64,
+      "bid": 0.63,
+      "ask": 0.64,
+      "volume": 124106.71,
+      "score": 0.7822931754287366,
+      "close": "2026-10-11T23:05:00Z",
+      "result": ""
+    }
+  ]
+}
