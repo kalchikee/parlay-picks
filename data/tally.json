@@ -1,5 +1,5 @@
 {
-  "wins": 5,
+  "wins": 6,
   "losses": 21,
   "pushes": 0,
   "history": [
@@ -574,6 +574,28 @@
         }
       ],
       "avg_clv": -0.0
+    },
+    {
+      "date": "2026-10-10",
+      "result": "win",
+      "legs": [
+        {
+          "title": "Arsenal wins",
+          "result": "win",
+          "clv": 0.32
+        },
+        {
+          "title": "New Jersey wins",
+          "result": "win",
+          "clv": 0.29
+        },
+        {
+          "title": "Edmonton wins",
+          "result": "win",
+          "clv": 0.41
+        }
+      ],
+      "avg_clv": 0.34
     }
   ]
 }
