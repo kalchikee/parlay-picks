@@ -1,5 +1,5 @@
 {
-  "wins": 6,
+  "wins": 7,
   "losses": 21,
   "pushes": 0,
   "history": [
@@ -596,6 +596,28 @@
         }
       ],
       "avg_clv": 0.34
+    },
+    {
+      "date": "2026-10-11",
+      "result": "win",
+      "legs": [
+        {
+          "title": "Detroit wins",
+          "result": "win",
+          "clv": 0.31
+        },
+        {
+          "title": "Dallas wins",
+          "result": "win",
+          "clv": 0.23
+        },
+        {
+          "title": "Denver wins",
+          "result": "win",
+          "clv": 0.36
+        }
+      ],
+      "avg_clv": 0.3
     }
   ]
 }
