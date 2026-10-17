@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-17",
+  "legs": [
+    {
+      "ticker": "KXMLSGAME-26OCT17PHICLT-PHI",
+      "title": "Philadelphia wins",
+      "series": "KXMLSGAME",
+      "sport": "MLS",
+      "event": "KXMLSGAME-26OCT17PHICLT",
+      "game_key": "26OCT17PHICLT",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 13861.34,
+      "score": 0.8838935072104329,
+      "close": "2026-10-17T21:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNCAAFGAME-26OCT17PSUMICH-MICH",
+      "title": "Michigan wins",
+      "series": "KXNCAAFGAME",
+      "sport": "NCAAF",
+      "event": "KXNCAAFGAME-26OCT17PSUMICH",
+      "game_key": "26OCT17PSUMICH",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 15987.78,
+      "score": 0.8526262721171933,
+      "close": "2026-10-17T22:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNHLGAME-26OCT17CARWPG-CAR",
+      "title": "Carolina wins",
+      "series": "KXNHLGAME",
+      "sport": "NHL",
+      "event": "KXNHLGAME-26OCT17CARWPG",
+      "game_key": "26OCT17CARWPG",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 12941.11,
+      "score": 0.7162323842914604,
+      "close": "2026-10-17T22:30:00Z",
+      "result": ""
+    }
+  ]
+}
