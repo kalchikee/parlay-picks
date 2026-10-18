@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-18",
+  "legs": [
+    {
+      "ticker": "KXNFLGAME-26OCT18BUFLV-BUF",
+      "title": "Buffalo wins",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26OCT18BUFLV",
+      "game_key": "26OCT18BUFLV",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 225295.97,
+      "score": 0.9242584474438473,
+      "close": "2026-10-18T23:25:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26OCT18BRICRY-BRI",
+      "title": "Brighton wins",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26OCT18BRICRY",
+      "game_key": "26OCT18BRICRY",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 171831.35,
+      "score": 0.8870034134053542,
+      "close": "2026-10-18T16:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNFLGAME-26OCT18BALCLE-BAL",
+      "title": "Baltimore wins",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26OCT18BALCLE",
+      "game_key": "26OCT18BALCLE",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 405962.53,
+      "score": 0.7327828650137218,
+      "close": "2026-10-18T20:00:00Z",
+      "result": ""
+    }
+  ]
+}
