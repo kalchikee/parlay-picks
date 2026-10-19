@@ -1,6 +1,6 @@
 {
   "wins": 7,
-  "losses": 22,
+  "losses": 23,
   "pushes": 0,
   "history": [
     {
@@ -640,6 +640,28 @@
         }
       ],
       "avg_clv": 0.01
+    },
+    {
+      "date": "2026-10-18",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Buffalo wins",
+          "result": "win",
+          "clv": 0.32
+        },
+        {
+          "title": "Brighton wins",
+          "result": "win",
+          "clv": 0.33
+        },
+        {
+          "title": "Baltimore wins",
+          "result": "loss",
+          "clv": -0.61
+        }
+      ],
+      "avg_clv": 0.013
     }
   ]
 }
