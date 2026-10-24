@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-24",
+  "legs": [
+    {
+      "ticker": "KXEPLGAME-26OCT24ARSEVE-ARS",
+      "title": "Arsenal wins",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26OCT24ARSEVE",
+      "game_key": "26OCT24ARSEVE",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 421058.1,
+      "score": 0.8999780675467356,
+      "close": "2026-10-24T17:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXWNBAGAME-26OCT24GSATL-ATL",
+      "title": "Atlanta wins",
+      "series": "KXWNBAGAME",
+      "sport": "WNBA",
+      "event": "KXWNBAGAME-26OCT24GSATL",
+      "game_key": "26OCT24GSATL",
+      "mid": 0.66,
+      "bid": 0.65,
+      "ask": 0.66,
+      "volume": 176563.58,
+      "score": 0.8540633708663347,
+      "close": "2026-10-24T22:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXUFCFIGHT-26OCT24MURREY-MUR",
+      "title": "Azamat Murzakanov wins",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26OCT24MURREY",
+      "game_key": "26OCT24MURREY",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 18384.37,
+      "score": 0.7879816250650804,
+      "close": "2026-10-24T22:20:00Z",
+      "result": ""
+    }
+  ]
+}
