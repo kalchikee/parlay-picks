@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-25",
+  "legs": [
+    {
+      "ticker": "KXNFLGAME-26OCT25DENARI-DEN",
+      "title": "Denver wins",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26OCT25DENARI",
+      "game_key": "26OCT25DENARI",
+      "mid": 0.67,
+      "bid": 0.66,
+      "ask": 0.67,
+      "volume": 164646.48,
+      "score": 0.8863850816768344,
+      "close": "2026-10-25T23:05:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNHLGAME-26OCT25FLACHI-FLA",
+      "title": "Florida wins",
+      "series": "KXNHLGAME",
+      "sport": "NHL",
+      "event": "KXNHLGAME-26OCT25FLACHI",
+      "game_key": "26OCT25FLACHI",
+      "mid": 0.61,
+      "bid": 0.61,
+      "ask": 0.62,
+      "volume": 3555.28,
+      "score": 0.6641957936584639,
+      "close": "2026-10-25T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26OCT25HULBRE-BRE",
+      "title": "Brentford wins",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26OCT25HULBRE",
+      "game_key": "26OCT25HULBRE",
+      "mid": 0.57,
+      "bid": 0.57,
+      "ask": 0.58,
+      "volume": 47001.05,
+      "score": 0.5682369186716955,
+      "close": "2026-10-25T17:00:00Z",
+      "result": ""
+    }
+  ]
+}
