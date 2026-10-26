@@ -1,6 +1,6 @@
 {
   "wins": 7,
-  "losses": 24,
+  "losses": 25,
   "pushes": 0,
   "history": [
     {
@@ -684,6 +684,28 @@
         }
       ],
       "avg_clv": -0.327
+    },
+    {
+      "date": "2026-10-25",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Denver wins",
+          "result": "win",
+          "clv": 0.33
+        },
+        {
+          "title": "Florida wins",
+          "result": "win",
+          "clv": 0.39
+        },
+        {
+          "title": "Brentford wins",
+          "result": "loss",
+          "clv": -0.57
+        }
+      ],
+      "avg_clv": 0.05
     }
   ]
 }
