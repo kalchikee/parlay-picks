@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-31",
+  "legs": [
+    {
+      "ticker": "KXNHLGAME-26OCT31CHIBOS-BOS",
+      "title": "Boston wins",
+      "series": "KXNHLGAME",
+      "sport": "NHL",
+      "event": "KXNHLGAME-26OCT31CHIBOS",
+      "game_key": "26OCT31CHIBOS",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 29878.88,
+      "score": 0.8950121438020839,
+      "close": "2026-10-31T20:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXMLSGAME-26OCT31CLBDCU-CLB",
+      "title": "Columbus wins",
+      "series": "KXMLSGAME",
+      "sport": "MLS",
+      "event": "KXMLSGAME-26OCT31CLBDCU",
+      "game_key": "26OCT31CLBDCU",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 1890.19,
+      "score": 0.8550501820404175,
+      "close": "2026-10-31T21:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBAGAME-26OCT31PORUTA-POR",
+      "title": "Portland wins",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26OCT31PORUTA",
+      "game_key": "26OCT31PORUTA",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.7,
+      "volume": 38350.21,
+      "score": 0.8444589248807666,
+      "close": "2026-10-31T22:00:00Z",
+      "result": ""
+    }
+  ]
+}
