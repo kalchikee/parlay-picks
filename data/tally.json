@@ -1,5 +1,5 @@
 {
-  "wins": 7,
+  "wins": 8,
   "losses": 25,
   "pushes": 0,
   "history": [
@@ -706,6 +706,28 @@
         }
       ],
       "avg_clv": 0.05
+    },
+    {
+      "date": "2026-10-31",
+      "result": "win",
+      "legs": [
+        {
+          "title": "Boston wins",
+          "result": "win",
+          "clv": 0.31
+        },
+        {
+          "title": "Columbus wins",
+          "result": "win",
+          "clv": 0.31
+        },
+        {
+          "title": "Portland wins",
+          "result": "win",
+          "clv": 0.31
+        }
+      ],
+      "avg_clv": 0.31
     }
   ]
 }
