@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-01",
+  "legs": [
+    {
+      "ticker": "KXNBAGAME-26NOV01BOSORL-BOS",
+      "title": "Boston wins",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26NOV01BOSORL",
+      "game_key": "26NOV01BOSORL",
+      "mid": 0.69,
+      "bid": 0.69,
+      "ask": 0.7,
+      "volume": 82423.88,
+      "score": 0.8763684351511247,
+      "close": "2026-11-01T23:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNFLGAME-26NOV01CLEPIT-PIT",
+      "title": "Pittsburgh wins",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26NOV01CLEPIT",
+      "game_key": "26NOV01CLEPIT",
+      "mid": 0.65,
+      "bid": 0.64,
+      "ask": 0.65,
+      "volume": 627362.95,
+      "score": 0.839083962237003,
+      "close": "2026-11-01T21:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNHLGAME-26NOV01WPGCAR-CAR",
+      "title": "Carolina wins",
+      "series": "KXNHLGAME",
+      "sport": "NHL",
+      "event": "KXNHLGAME-26NOV01WPGCAR",
+      "game_key": "26NOV01WPGCAR",
+      "mid": 0.72,
+      "bid": 0.72,
+      "ask": 0.73,
+      "volume": 12249.86,
+      "score": 0.7487710375102229,
+      "close": "2026-11-01T21:00:00Z",
+      "result": ""
+    }
+  ]
+}
