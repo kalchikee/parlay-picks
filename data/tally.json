@@ -1,5 +1,5 @@
 {
-  "wins": 8,
+  "wins": 9,
   "losses": 25,
   "pushes": 0,
   "history": [
@@ -728,6 +728,28 @@
         }
       ],
       "avg_clv": 0.31
+    },
+    {
+      "date": "2026-11-01",
+      "result": "win",
+      "legs": [
+        {
+          "title": "Boston wins",
+          "result": "win",
+          "clv": 0.31
+        },
+        {
+          "title": "Pittsburgh wins",
+          "result": "win",
+          "clv": 0.35
+        },
+        {
+          "title": "Carolina wins",
+          "result": "win",
+          "clv": 0.28
+        }
+      ],
+      "avg_clv": 0.313
     }
   ]
 }
