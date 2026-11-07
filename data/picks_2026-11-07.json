@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-07",
+  "legs": [
+    {
+      "ticker": "KXUFCFIGHT-26NOV06CORWAL-COR",
+      "title": "Waldo Cortes-Acosta wins",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26NOV06CORWAL",
+      "game_key": "26NOV06CORWAL",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 49028.11,
+      "score": 0.9021815050604858,
+      "close": "2026-11-07T05:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26NOV07NFOMCI-MCI",
+      "title": "Manchester City wins",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26NOV07NFOMCI",
+      "game_key": "26NOV07NFOMCI",
+      "mid": 0.56,
+      "bid": 0.56,
+      "ask": 0.57,
+      "volume": 866151.23,
+      "score": 0.5770864575484014,
+      "close": "2026-11-07T20:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXUFCFIGHT-26NOV06PARSOU-SOU",
+      "title": "Jose Henrique Souza wins",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26NOV06PARSOU",
+      "game_key": "26NOV06PARSOU",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 10740.58,
+      "score": 0.8802009244749931,
+      "close": "2026-11-07T04:00:00Z",
+      "result": ""
+    }
+  ]
+}
