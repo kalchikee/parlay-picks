@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-08",
+  "legs": [
+    {
+      "ticker": "KXNFLGAME-26NOV08DALIND-DAL",
+      "title": "Dallas wins",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26NOV08DALIND",
+      "game_key": "26NOV08DALIND",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 394162.15,
+      "score": 0.9323558306059817,
+      "close": "2026-11-08T21:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26NOV08CRYLFC-LFC",
+      "title": "Liverpool wins",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26NOV08CRYLFC",
+      "game_key": "26NOV08CRYLFC",
+      "mid": 0.62,
+      "bid": 0.62,
+      "ask": 0.63,
+      "volume": 263428.14,
+      "score": 0.7598554055146522,
+      "close": "2026-11-08T17:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBAGAME-26NOV08PHICHI-PHI",
+      "title": "Philadelphia wins",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26NOV08PHICHI",
+      "game_key": "26NOV08PHICHI",
+      "mid": 0.79,
+      "bid": 0.78,
+      "ask": 0.79,
+      "volume": 128123.73,
+      "score": 0.582754319118895,
+      "close": "2026-11-08T23:30:00Z",
+      "result": ""
+    }
+  ]
+}
