@@ -1,5 +1,5 @@
 {
-  "wins": 9,
+  "wins": 10,
   "losses": 25,
   "pushes": 0,
   "history": [
@@ -750,6 +750,28 @@
         }
       ],
       "avg_clv": 0.313
+    },
+    {
+      "date": "2026-11-08",
+      "result": "win",
+      "legs": [
+        {
+          "title": "Dallas wins",
+          "result": "win",
+          "clv": 0.32
+        },
+        {
+          "title": "Liverpool wins",
+          "result": "win",
+          "clv": 0.38
+        },
+        {
+          "title": "Philadelphia wins",
+          "result": "win",
+          "clv": 0.21
+        }
+      ],
+      "avg_clv": 0.303
     }
   ]
 }
