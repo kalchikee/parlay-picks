@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-14",
+  "legs": [
+    {
+      "ticker": "KXNHLGAME-26NOV14WPGCHI-WPG",
+      "title": "Winnipeg wins",
+      "series": "KXNHLGAME",
+      "sport": "NHL",
+      "event": "KXNHLGAME-26NOV14WPGCHI",
+      "game_key": "26NOV14WPGCHI",
+      "mid": 0.6,
+      "bid": 0.6,
+      "ask": 0.61,
+      "volume": 4884.07,
+      "score": 0.635459395992004,
+      "close": "2026-11-14T23:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNCAAMBSPREAD-26NOV14CITUNF-UNF2",
+      "title": "North Florida wins by over 1.5 points",
+      "series": "KXNCAAMBSPREAD",
+      "sport": "NCAAM Spread",
+      "event": "KXNCAAMBSPREAD-26NOV14CITUNF",
+      "game_key": "26NOV14CITUNF",
+      "mid": 0.6,
+      "bid": 0.58,
+      "ask": 0.63,
+      "volume": 3.0,
+      "score": 0.37840404182398835,
+      "close": "2026-11-14T22:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNHLSPREAD-26NOV14SEACAR-CAR2",
+      "title": "Carolina wins by over 1.5 goals",
+      "series": "KXNHLSPREAD",
+      "sport": "NHL Spread",
+      "event": "KXNHLSPREAD-26NOV14SEACAR",
+      "game_key": "26NOV14SEACAR",
+      "mid": 0.59,
+      "bid": 0.59,
+      "ask": 0.6,
+      "volume": 10160.85,
+      "score": 0.6127310013373335,
+      "close": "2026-11-14T21:00:00Z",
+      "result": ""
+    }
+  ]
+}
