@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-15",
+  "legs": [
+    {
+      "ticker": "KXNFLGAME-26NOV15HOUCLE-HOU",
+      "title": "Houston wins",
+      "series": "KXNFLGAME",
+      "sport": "NFL",
+      "event": "KXNFLGAME-26NOV15HOUCLE",
+      "game_key": "26NOV15HOUCLE",
+      "mid": 0.68,
+      "bid": 0.67,
+      "ask": 0.68,
+      "volume": 86658.09,
+      "score": 0.9104269704224778,
+      "close": "2026-11-15T21:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNBAGAME-26NOV15INDPHI-PHI",
+      "title": "Philadelphia wins",
+      "series": "KXNBAGAME",
+      "sport": "NBA",
+      "event": "KXNBAGAME-26NOV15INDPHI",
+      "game_key": "26NOV15INDPHI",
+      "mid": 0.71,
+      "bid": 0.71,
+      "ask": 0.72,
+      "volume": 92703.06,
+      "score": 0.8114031356614083,
+      "close": "2026-11-15T21:00:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXNCAAMBSPREAD-26NOV15NORFGAST-GAST9",
+      "title": "Georgia St. wins by over 8.5 points",
+      "series": "KXNCAAMBSPREAD",
+      "sport": "NCAAM Spread",
+      "event": "KXNCAAMBSPREAD-26NOV15NORFGAST",
+      "game_key": "26NOV15NORFGAST",
+      "mid": 0.59,
+      "bid": 0.58,
+      "ask": 0.61,
+      "volume": 23.48,
+      "score": 0.4498566030858522,
+      "close": "2026-11-15T21:00:00Z",
+      "result": ""
+    }
+  ]
+}
