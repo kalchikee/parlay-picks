@@ -1,6 +1,6 @@
 {
   "wins": 10,
-  "losses": 26,
+  "losses": 27,
   "pushes": 0,
   "history": [
     {
@@ -794,6 +794,28 @@
         }
       ],
       "avg_clv": 0.07
+    },
+    {
+      "date": "2026-11-15",
+      "result": "loss",
+      "legs": [
+        {
+          "title": "Houston wins",
+          "result": "loss",
+          "clv": -0.68
+        },
+        {
+          "title": "Philadelphia wins",
+          "result": "win",
+          "clv": 0.29
+        },
+        {
+          "title": "Georgia St. wins by over 8.5 points",
+          "result": "win",
+          "clv": 0.41
+        }
+      ],
+      "avg_clv": 0.007
     }
   ]
 }
