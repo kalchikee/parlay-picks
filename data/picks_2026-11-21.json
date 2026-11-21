@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-21",
+  "legs": [
+    {
+      "ticker": "KXNCAAFGAME-26NOV21YALEHARV-HARV",
+      "title": "Harvard wins",
+      "series": "KXNCAAFGAME",
+      "sport": "NCAAF",
+      "event": "KXNCAAFGAME-26NOV21YALEHARV",
+      "game_key": "26NOV21YALEHARV",
+      "mid": 0.69,
+      "bid": 0.68,
+      "ask": 0.69,
+      "volume": 6013.51,
+      "score": 0.8718042679168269,
+      "close": "2026-11-21T23:30:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXUFCFIGHT-26NOV21MATABD-MAT",
+      "title": "Jake Matthews wins",
+      "series": "KXUFCFIGHT",
+      "sport": "UFC",
+      "event": "KXUFCFIGHT-26NOV21MATABD",
+      "game_key": "26NOV21MATABD",
+      "mid": 0.69,
+      "bid": 0.69,
+      "ask": 0.7,
+      "volume": 41721.79,
+      "score": 0.8665120977598306,
+      "close": "2026-11-21T20:40:00Z",
+      "result": ""
+    },
+    {
+      "ticker": "KXEPLGAME-26NOV21MCIFUL-MCI",
+      "title": "Manchester City wins",
+      "series": "KXEPLGAME",
+      "sport": "EPL",
+      "event": "KXEPLGAME-26NOV21MCIFUL",
+      "game_key": "26NOV21MCIFUL",
+      "mid": 0.71,
+      "bid": 0.71,
+      "ask": 0.72,
+      "volume": 536386.27,
+      "score": 0.8368159217529435,
+      "close": "2026-11-21T15:30:00Z",
+      "result": ""
+    }
+  ]
+}
